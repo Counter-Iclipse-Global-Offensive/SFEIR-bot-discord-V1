@@ -23,28 +23,23 @@ module.exports = {
                         .addComponents(
                             new ButtonBuilder()
                                 .setCustomId('first_option')
-                                .setLabel('Réponse 🟢')
                                 .setStyle(ButtonStyle.Primary)
-                                .setEmoji(':green_circle:'),
+                                .setEmoji('🟢'),
                             new ButtonBuilder()
                                 .setCustomId('second_option')
-                                .setLabel('Réponse 🟡')
                                 .setStyle(ButtonStyle.Primary)
-                                .setEmoji(':yellow_circle:'),
+                                .setEmoji('🟡'),
                             new ButtonBuilder()
                                 .setCustomId('third_option')
-                                .setLabel('Réponse 🔴')
                                 .setStyle(ButtonStyle.Primary)
-                                .setEmoji(':red_circle:'),
+                                .setEmoji('🔴'),
                             new ButtonBuilder()
                                 .setCustomId('fourth_option')
-                                .setLabel('Réponse 🟣')
                                 .setStyle(ButtonStyle.Primary)
-                                .setEmoji(':purple_circle:'),
+                                .setEmoji('🟣'),
                         )
 
-                    await interaction.update({ embeds: [embed], components: [row] });
-
+                    await interaction.reply({ embeds: [embed], components: [row] });
                 }
             }
         }
