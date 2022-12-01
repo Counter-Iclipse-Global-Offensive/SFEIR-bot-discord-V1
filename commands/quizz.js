@@ -13,27 +13,27 @@ module.exports = {
 					.addOptions(
 						{
 							label: 'Le VIH',
-							description: `Le VIH est un virus qui affaiblit le système immunitaire, et en l'absence de traitement, est responsable du sida.`,
+							description: `est un virus qui en l'absence de traitement, est responsable du sida.`,
 							value: 'first_option',
 						},
 						{
 							label: `L'hépatite B`,
-							description: `L'hépatite B est une infection hépatique potentiellement mortelle causée par le virus de l'hépatite B (VHB)`,
+							description: `est une infection potentiellement mortelle causée par le virus de l'hépatite B (VHB).`,
 							value: 'second_option',
 						},
                         {
                             label: `L'herpès`,
-                            description: `L'herpès est une infection sexuellement transmissible causée par le virus herpes simplex (HSV).`,
+                            description: `est une infection sexuellement transmissible causée par le virus herpes simplex (HSV).`,
                             value: 'third_option',
                         },
                         {
                             label: `Le papillomavirus`,
-                            description: `Le papillomavirus est en général asymptomatique. Dans certains cas, elle peut entrainer des lésions pouvant évoluer en cancer dont le plus fréquent est le cancer du col de l'utérus.`,
+                            description: `est en général asymptomatique. Dans le pire des cas elle peut provoquer un cancer.`,
                             value: 'fourth_option',
                         },
                         {
                             label: `La syphillis`,
-                            description: `La syphilis est une maladie strictement humaine provoquant des lésions cutanées et des muqueuses d'aspect variable. La période d'incubation est longue : 3 semaines en moyenne.`,
+                            description: `est une maladie provoquant des lésions cutanées et des muqueuses d'aspect variable.`,
                             value: 'fifth_option',
                         },
 					),
