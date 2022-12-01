@@ -443,11 +443,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                        Qui sont les gens le plus touché par l'herpès ? \n
+                        Réponse 🟢 : Les moins de 10ans 
+                        Réponse 🟡 : Les plus de 90ans
+                        Réponse 🔴 : Les moins de 50ans!!!!!!
+                        Réponse 🟣 : Les bébés
                     `)
                     .setColor("DarkGold")
                 
@@ -476,11 +476,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                        Qui sont les gens le plus touché par l'herpès ? \n
+                        Réponse 🟢 : Les moins de 10ans 
+                        Réponse 🟡 : Les plus de 90ans
+                        Réponse 🔴 : Les moins de 50ans!!!!!!
+                        Réponse 🟣 : Les bébés
                     `)
                     .setColor("DarkGold")
                 
@@ -509,11 +509,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                        Qui sont les gens le plus touché par l'herpès ? \n
+                        Réponse 🟢 : Les moins de 10ans 
+                        Réponse 🟡 : Les plus de 90ans
+                        Réponse 🔴 : Les moins de 50ans!!!!!!
+                        Réponse 🟣 : Les bébés
                     `)
                     .setColor("DarkGold")
                 
@@ -542,11 +542,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                        Qui sont les gens le plus touché par l'herpès ? \n
+                        Réponse 🟢 : Les moins de 10ans 
+                        Réponse 🟡 : Les plus de 90ans
+                        Réponse 🔴 : Les moins de 50ans!!!!!!
+                        Réponse 🟣 : Les bébés
                     `)
                     .setColor("DarkGold")
                 
