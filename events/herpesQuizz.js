@@ -7,7 +7,7 @@ module.exports = {
             if(interaction.customId === 'select') {
                 const selected = interaction.values[0];
 
-                if (selected === 'first_option') {
+                if (selected === 'fourth_option') {
                     const embed = new EmbedBuilder()
                         .setTitle('Question numéro 1️⃣')
                         .setDescription(`
@@ -22,19 +22,19 @@ module.exports = {
                     const row = new ActionRowBuilder()
                         .addComponents(
                             new ButtonBuilder()
-                                .setCustomId('vih_one_first_option')
+                                .setCustomId('first_option')
                                 .setStyle(ButtonStyle.Primary)
                                 .setEmoji('🟢'),
                             new ButtonBuilder()
-                                .setCustomId('vih_one_second_option')
+                                .setCustomId('second_option')
                                 .setStyle(ButtonStyle.Primary)
                                 .setEmoji('🟡'),
                             new ButtonBuilder()
-                                .setCustomId('vih_one_third_option')
+                                .setCustomId('third_option')
                                 .setStyle(ButtonStyle.Primary)
                                 .setEmoji('🔴'),
                             new ButtonBuilder()
-                                .setCustomId('vih_one_fourth_option')
+                                .setCustomId('fourth_option')
                                 .setStyle(ButtonStyle.Primary)
                                 .setEmoji('🟣'),
                         )
@@ -42,7 +42,6 @@ module.exports = {
                     await interaction.reply({ embeds: [embed], components: [row] });
                 }
             }
-        } else (interaction.isButton()) {
         }
     }
 }
