@@ -27,8 +27,12 @@ module.exports = {
         const embed = new EmbedBuilder()
             .setTitle('Quizz')
             .setDescription(`
-                Vous retrouverez dans ce quizz, des questions...
-                ...sur les maladies sexuellement transmissibles.
+                Vous retrouverez dans ce quizz, des questions sur les maladies sexuellement transmissibles tels que
+				  🥵Le VIH 
+				  🤣L'hépatite B
+				  🥸Le papillomavirus
+				  💀L'herpès
+				  🙊Syphilis
             `)
 
 		await interaction.reply({ embeds: [embed], components: [row] });
