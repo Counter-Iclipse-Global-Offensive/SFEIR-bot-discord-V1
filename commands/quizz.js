@@ -28,12 +28,12 @@ module.exports = {
                         },
                         {
                             label: `Le papillomavirus`,
-                            description: ``,
+                            description: `Le papillomavirus est en général asymptomatique. Dans certains cas, elle peut entrainer des lésions pouvant évoluer en cancer dont le plus fréquent est le cancer du col de l'utérus.`,
                             value: 'fourth_option',
                         },
                         {
                             label: `La syphillis`,
-                            description: 'NT',
+                            description: `La syphilis est une maladie strictement humaine provoquant des lésions cutanées et des muqueuses d'aspect variable. La période d'incubation est longue : 3 semaines en moyenne.`,
                             value: 'fifth_option',
                         },
 					),
