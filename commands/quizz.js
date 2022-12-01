@@ -1,4 +1,4 @@
-const { EmbedBuilder, ActionRowBuilder, SlashCommandBuilder, Events, SelectMenuBuilder } = require('discord.js')
+const { EmbedBuilder, ActionRowBuilder, SlashCommandBuilder, SelectMenuBuilder } = require('discord.js')
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -9,18 +9,33 @@ module.exports = {
 			.addComponents(
 				new SelectMenuBuilder()
 					.setCustomId('select')
-					.setPlaceholder('Nothing selected')
+					.setPlaceholder('Faites votre choix')
 					.addOptions(
 						{
-							label: 'Select me',
-							description: 'This is a description',
+							label: 'Le VIH',
+							description: 'Le VIH est le virus qui entraine le sida.',
 							value: 'first_option',
 						},
 						{
-							label: 'You can select me too',
-							description: 'This is also a description',
+							label: `L'hépatite B`,
+							description: 'NT',
 							value: 'second_option',
 						},
+                        {
+                            label: `L'herpès`,
+                            description: 'NT',
+                            value: 'third_option',
+                        },
+                        {
+                            label: `Le papillomavirus`,
+                            description: 'NT',
+                            value: 'fourth_option',
+                        },
+                        {
+                            label: `La syphillis`,
+                            description: 'NT',
+                            value: 'fifth_option',
+                        },
 					),
 			);
 
