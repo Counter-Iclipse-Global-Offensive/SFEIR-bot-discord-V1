@@ -1,4 +1,4 @@
-const { EmbedBuilder, ActionRowBuilder, SlashCommandBuilder, SelectMenuBuilder } = require('discord.js')
+const { EmbedBuilder, ActionRowBuilder, SlashCommandBuilder, StringSelectMenuBuilder } = require('discord.js')
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -7,7 +7,7 @@ module.exports = {
     async execute(interaction) {
         const row = new ActionRowBuilder()
 			.addComponents(
-				new SelectMenuBuilder()
+				new StringSelectMenuBuilder()
 					.setCustomId('select')
 					.setPlaceholder('Faites votre choix')
 					.addOptions(
