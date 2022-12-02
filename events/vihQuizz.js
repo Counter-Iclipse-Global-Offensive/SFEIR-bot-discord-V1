@@ -189,11 +189,7 @@ module.exports = {
                 `)
                 .setColor("DarkRed")
 
-            if(interaction.customId === 'vih_one_first_option')
-            {
-                await interaction.reply({ embeds: [embed2], components: [row2] });
-            }
-            else if(interaction.customId === 'vih_one_second_option')
+            if(interaction.customId === 'vih_one_first_option' || interaction.customId === 'vih_one_second_option' || interaction.customId === 'vih_one_fourth_option')
             {
                 await interaction.reply({ embeds: [embed2], components: [row2] });
             }
@@ -204,10 +200,6 @@ module.exports = {
 
                 await interaction.reply({ embeds: [embed2], components: [row2] });
             }
-            else if(interaction.customId === 'vih_one_fourth_option')
-            {
-                await interaction.reply({ embeds: [embed2], components: [row2] });
-            }
             else if(interaction.customId === 'vih_two_first_option')
             {
                 memberModel.vihGoodAwnsers++;
@@ -215,27 +207,11 @@ module.exports = {
 
                 await interaction.reply({ embeds: [embed3], components: [row3] });
             }
-            else if(interaction.customId === 'vih_two_second_option')
+            else if(interaction.customId === 'vih_two_second_option' || interaction.customId === 'vih_two_third_option' || interaction.customId === 'vih_two_fourth_option')
             {
                 await interaction.reply({ embeds: [embed3], components: [row3] });
             }
-            else if(interaction.customId === 'vih_two_third_option')
-            {
-                await interaction.reply({ embeds: [embed3], components: [row3] });
-            }
-            else if(interaction.customId === 'vih_two_fourth_option')
-            {
-                await interaction.reply({ embeds: [embed3], components: [row3] });
-            }
-            else if(interaction.customId === 'vih_three_first_option')
-            {
-                await interaction.reply({ embeds: [embed4], components: [row4] });
-            }
-            else if(interaction.customId === 'vih_three_second_option')
-            {
-                await interaction.reply({ embeds: [embed4], components: [row4] });
-            }
-            else if(interaction.customId === 'vih_three_third_option')
+            else if(interaction.customId === 'vih_three_first_option' || interaction.customId === 'vih_three_second_option' || interaction.customId === 'vih_three_third_option')
             {
                 await interaction.reply({ embeds: [embed4], components: [row4] });
             }
@@ -246,7 +222,7 @@ module.exports = {
 
                 await interaction.reply({ embeds: [embed4], components: [row4] });
             }
-            else if(interaction.customId === 'vih_four_first_option')
+            else if(interaction.customId === 'vih_four_first_option' || interaction.customId === 'vih_four_third_option' || interaction.customId === 'vih_four_fourth_option')
             {
                 await interaction.reply({ embeds: [embed5], components: [row5] });
             }
@@ -257,19 +233,7 @@ module.exports = {
 
                 await interaction.reply({ embeds: [embed5], components: [row5] });
             }
-            else if(interaction.customId === 'vih_four_third_option')
-            {
-                await interaction.reply({ embeds: [embed5], components: [row5] });
-            }
-            else if(interaction.customId === 'vih_four_fourth_option')
-            {
-                await interaction.reply({ embeds: [embed5], components: [row5] });
-            }
-            else if(interaction.customId === 'vih_five_first_option')
-            {
-                await interaction.reply({ embeds: [finalEmbedFail] });
-            }
-            else if(interaction.customId === 'vih_five_second_option')
+            else if(interaction.customId === 'vih_five_first_option' || interaction.customId === 'vih_five_second_option' || interaction.customId === 'vih_five_fourth_option')
             {
                 await interaction.reply({ embeds: [finalEmbedFail] });
             }
@@ -303,10 +267,6 @@ module.exports = {
                 } else {
                     await interaction.reply({ embeds: [finalEmbedFail] });
                 }
-            }
-            else if(interaction.customId === 'vih_five_fourth_option')
-            {
-                await interaction.reply({ embeds: [finalEmbedFail] });
             }
         }
     }
