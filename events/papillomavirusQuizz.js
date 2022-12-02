@@ -185,81 +185,84 @@ module.exports = {
                     Vous pouvez réassayer autant de fois que vous le souhaitez.
                 `)
                 .setColor("DarkRed")
-            if(interaction.customId === 'papillomavirus_one_first_option') {
-                await interaction.reply({ embeds: [embed2], components: [row2] });
-            } else if(interaction.customId === 'papillomavirus_one_second_option') {
-                memberModel.papillomavirusGoodAnswers++;
-                await memberModel.save();
-                await interaction.reply({ embeds: [embed2], components: [row2] });
-            } else if(interaction.customId === 'papillomavirus_one_third_option') {
-                await interaction.reply({ embeds: [embed2], components: [row2] });
-            } else if(interaction.customId === 'papillomavirus_one_fourth_option') {
-                await interaction.reply({ embeds: [embed2], components: [row2] });
-            } else if(interaction.customId === 'papillomavirus_two_first_option') {
-                await interaction.reply({ embeds: [embed3], components: [row3] });
-            } else if(interaction.customId === 'papillomavirus_two_second_option') {
-                await interaction.reply({ embeds: [embed3], components: [row3] });
-            } else if(interaction.customId === 'papillomavirus_two_third_option') {
-                await interaction.reply({ embeds: [embed3], components: [row3] });
-            } else if(interaction.customId === 'papillomavirus_two_fourth_option') {
-                memberModel.papillomavirusGoodAnswers++;
-                await memberModel.save();
-                await interaction.reply({ embeds: [embed3], components: [row3] });
-            } else if(interaction.customId === 'papillomavirus_three_first_option') {
-                memberModel.papillomavirusGoodAnswers++;
-                await memberModel.save();
-                await interaction.reply({ embeds: [embed4], components: [row4] });
-            } else if(interaction.customId === 'papillomavirus_three_second_option') {
-                await interaction.reply({ embeds: [embed4], components: [row4] });
-            } else if(interaction.customId === 'papillomavirus_three_third_option') {
-                await interaction.reply({ embeds: [embed4], components: [row4] });
-            } else if(interaction.customId === 'papillomavirus_three_fourth_option') {
-                await interaction.reply({ embeds: [embed4], components: [row4] });
-            } else if(interaction.customId === 'papillomavirus_four_first_option') {
-                memberModel.papillomavirusGoodAnswers++;
-                await memberModel.save();
-                await interaction.reply({ embeds: [embed5], components: [row5] });
-            } else if(interaction.customId === 'papillomavirus_four_second_option') {
-                await interaction.reply({ embeds: [embed5], components: [row5] });
-            } else if(interaction.customId === 'papillomavirus_four_third_option') {
-                await interaction.reply({ embeds: [embed5], components: [row5] });
-            } else if(interaction.customId === 'papillomavirus_four_fourth_option') {
-                await interaction.reply({ embeds: [embed5], components: [row5] });
-            } else if(interaction.customId === 'papillomavirus_five_first_option') {
-                await interaction.reply({ embeds: [finalEmbedFail] });
-            } else if(interaction.customId === 'papillomavirus_five_second_option') {
-                await interaction.reply({ embeds: [finalEmbedFail] });
-            } else if(interaction.customId === 'papillomavirus_five_third_option') {
-                if (memberModel.papillomavirusGoodAnswers === 4) {
-                    if(memberModel.papillomavirusBadge === false) {
-                        memberModel.papillomavirusBadge = true;
-                        await memberModel.save();
 
-                        const finalEmbedSuccess = new EmbedBuilder()
-                            .setTitle('Vous avez réussi !')
-                            .setDescription(`
-                                Vous avez eu 5 bonnes réponses, vous avez donc réussi !
-                                Vous êtes récompensés d'un badge, votre collection est visionnable sur le site.
-                            `)
-                            .setColor("DarkGreen")
+            switch(interaction.customId) {
+            	case 'papillomavirus_one_first_option':
+            	case 'papillomavirus_one_third_option':
+            	case 'papillomavirus_one_fourth_option':
+                	await interaction.reply({ embeds: [embed2], components: [row2] });
+            		break;
+            	case 'papillomavirus_one_second_option':
+                	memberModel.papillomavirusGoodAnswers++;
+                	await memberModel.save();
+                	await interaction.reply({ embeds: [embed2], components: [row2] });
+            		break;
+            	case 'papillomavirus_two_first_option':
+            	case 'papillomavirus_two_third_option':
+            	case 'papillomavirus_two_second_option':
+                	await interaction.reply({ embeds: [embed3], components: [row3] });
+            		break;
+            	case 'papillomavirus_two_fourth_option':
+                	memberModel.papillomavirusGoodAnswers++;
+                	await memberModel.save();
+                	await interaction.reply({ embeds: [embed3], components: [row3] });
+            		break;
+            	case 'papillomavirus_three_fourth_option':
+            	case 'papillomavirus_three_third_option':
+            	case 'papillomavirus_three_second_option':
+                	await interaction.reply({ embeds: [embed4], components: [row4] });
+            		break;
+            	case 'papillomavirus_three_first_option':
+                	memberModel.papillomavirusGoodAnswers++;
+                	await memberModel.save();
+                	await interaction.reply({ embeds: [embed4], components: [row4] });
+            		break;
+            	case 'papillomavirus_four_fourth_option':
+            	case 'papillomavirus_four_third_option':
+            	case 'papillomavirus_four_second_option':
+                	await interaction.reply({ embeds: [embed5], components: [row5] });
+            		break;
+            	case 'papillomavirus_four_first_option':
+                	memberModel.papillomavirusGoodAnswers++;
+                	await memberModel.save();
+                	await interaction.reply({ embeds: [embed5], components: [row5] });
+            		break;
+            	case 'papillomavirus_five_fourth_option':
+            	case 'papillomavirus_five_first_option':
+            	case 'papillomavirus_five_second_option':
+                	await interaction.reply({ embeds: [finalEmbedFail] });
+            		break;
+            	case 'papillomavirus_five_third_option':
+					if (memberModel.papillomavirusGoodAnswers === 4) {
+                	    if(memberModel.papillomavirusBadge === false) {
+                	        memberModel.papillomavirusBadge = true;
+                	        await memberModel.save();
+	
+                	        const finalEmbedSuccess = new EmbedBuilder()
+                	            .setTitle('Vous avez réussi !')
+                	            .setDescription(`
+                	                Vous avez eu 5 bonnes réponses, vous avez donc réussi !
+                	                Vous êtes récompensés d'un badge, votre collection est visionnable sur le site.
+                	            `)
+                	            .setColor("DarkGreen")
+	
+                	        await interaction.reply({ embeds: [finalEmbedSuccess] });
+                	    } else {
+                	        const finalEmbedSuccess = new EmbedBuilder()
+                	            .setTitle('Vous avez réussi !')
+                	            .setDescription(`
+                	                Vous avez eu 5 bonnes réponses, vous avez donc réussi !
+                	                Vous avez déjà reçu le badge correspondant, votre collection est visionnable sur le site.
+                	            `)
+                	            .setColor("DarkGreen")
+	
+                	        await interaction.reply({ embeds: [finalEmbedSuccess] });
+                	    }
+                	} else {
+                	    await interaction.reply({ embeds: [finalEmbedFail] });
+                	}
+            		break;
 
-                        await interaction.reply({ embeds: [finalEmbedSuccess] });
-                    } else {
-                        const finalEmbedSuccess = new EmbedBuilder()
-                            .setTitle('Vous avez réussi !')
-                            .setDescription(`
-                                Vous avez eu 5 bonnes réponses, vous avez donc réussi !
-                                Vous avez déjà reçu le badge correspondant, votre collection est visionnable sur le site.
-                            `)
-                            .setColor("DarkGreen")
-
-                        await interaction.reply({ embeds: [finalEmbedSuccess] });
-                    }
-                } else {
-                    await interaction.reply({ embeds: [finalEmbedFail] });
-                }
-            } else if(interaction.customId === 'papillomavirus_five_fourth_option') {
-                await interaction.reply({ embeds: [finalEmbedFail] });
             }
         }
     }
