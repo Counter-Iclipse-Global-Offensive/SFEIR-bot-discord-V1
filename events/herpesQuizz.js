@@ -12,7 +12,7 @@ module.exports = {
                         .setTitle('Question numéro 1️⃣')
                         .setDescription(`
                             Quels sont les symptômes de l'herpès ? \n
-                            Réponse 🟢 : Lésions vésiculaires ou des plaies ouvertes à la bouche ou aux paties génitales!!!!!
+                            Réponse 🟢 : Lésions vésiculaires ou des plaies ouvertes à la bouche ou aux parties génitales
                             Réponse 🟡 : Toux
                             Réponse 🔴 : Perte de cheveux
                             Réponse 🟣 : Diabète
@@ -47,8 +47,8 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                        Quelles sont les 2 façons d'être infecté par l'herpès  ? \n
-                        Réponse 🟢 : Relation sexuelle et salive!!!!!
+                        Quelles sont les 2 façons d'être infecté par l'herpès ? \n
+                        Réponse 🟢 : Relation sexuelle et salive
                         Réponse 🟡 : Salive et sang
                         Réponse 🔴 : Les animaux et l'hygiène
                         Réponse 🟣 : Relation sexuelle et sang
@@ -80,8 +80,8 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                        Quelles sont les 2 façons d'être infecté par l'herpès  ? \n
-                        Réponse 🟢 : Relation sexuelle et salive!!!!!
+                        Quelles sont les 2 façons d'être infecté par l'herpès ? \n
+                        Réponse 🟢 : Relation sexuelle et salive
                         Réponse 🟡 : Salive et sang
                         Réponse 🔴 : Les animaux et l'hygiène
                         Réponse 🟣 : Relation sexuelle et sang
@@ -113,8 +113,8 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                        Quelles sont les 2 façons d'être infecté par l'herpès  ? \n
-                        Réponse 🟢 : Relation sexuelle et salive!!!!!
+                        Quelles sont les 2 façons d'être infecté par l'herpès ? \n
+                        Réponse 🟢 : Relation sexuelle et salive
                         Réponse 🟡 : Salive et sang
                         Réponse 🔴 : Les animaux et l'hygiène
                         Réponse 🟣 : Relation sexuelle et sang
@@ -146,8 +146,8 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                        Quelles sont les 2 façons d'être infecté par l'herpès  ? \n
-                        Réponse 🟢 : Relation sexuelle et salive!!!!!
+                        Quelles sont les 2 façons d'être infecté par l'herpès ? \n
+                        Réponse 🟢 : Relation sexuelle et salive
                         Réponse 🟡 : Salive et sang
                         Réponse 🔴 : Les animaux et l'hygiène
                         Réponse 🟣 : Relation sexuelle et sang
@@ -179,8 +179,8 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
-                    Est-ce que l'herpès est contagieuse ? \n
-                        Réponse 🟢 : Oui!!!!!!
+                    Est-ce que l'herpès est contagieux ? \n
+                        Réponse 🟢 : Oui
                         Réponse 🟡 : Non
                         Réponse 🔴 : Peut-être
                         Réponse 🟣 : Je ne sais pas
@@ -212,8 +212,8 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
-                        Est-ce que l'herpès est contagieuse ? \n
-                        Réponse 🟢 : Oui!!!!!!
+                        Est-ce que l'herpès est contagieux ? \n
+                        Réponse 🟢 : Oui
                         Réponse 🟡 : Non
                         Réponse 🔴 : Peut-être
                         Réponse 🟣 : Je ne sais pas
@@ -245,8 +245,8 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
-                        Est-ce que l'herpès est contagieuse ? \n
-                        Réponse 🟢 : Oui!!!!!!
+                        Est-ce que l'herpès est contagieux ? \n
+                        Réponse 🟢 : Oui
                         Réponse 🟡 : Non
                         Réponse 🔴 : Peut-être
                         Réponse 🟣 : Je ne sais pas
@@ -278,8 +278,8 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
-                        Est-ce que l'herpès est contagieuse ? \n
-                        Réponse 🟢 : Oui!!!!!!
+                        Est-ce que l'herpès est contagieux ? \n
+                        Réponse 🟢 : Oui
                         Réponse 🟡 : Non
                         Réponse 🔴 : Peut-être
                         Réponse 🟣 : Je ne sais pas
@@ -311,9 +311,9 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 4️⃣')
                     .setDescription(`
-                        L'herpès disparaît-il au bout d'un certain temps? \n
+                        L'herpès disparaît-il au bout d'un certains temps? \n
                         Réponse 🟢 : Oui
-                        Réponse 🟡 : Non pas totalement!!!!!
+                        Réponse 🟡 : Non pas totalement
                         Réponse 🔴 : Non
                         Réponse 🟣 : Je sais pas
                     `)
@@ -344,9 +344,9 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 4️⃣')
                     .setDescription(`
-                        L'herpès disparaît-il au bout d'un certain temps? \n
+                        L'herpès disparaît-il au bout d'un certains temps? \n
                         Réponse 🟢 : Oui
-                        Réponse 🟡 : Non pas totalement!!!!!
+                        Réponse 🟡 : Non pas totalement
                         Réponse 🔴 : Non
                         Réponse 🟣 : Je sais pas
                     `)
@@ -377,9 +377,9 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 4️⃣')
                     .setDescription(`
-                        L'herpès disparaît-il au bout d'un certain temps? \n
+                        L'herpès disparaît-il au bout d'un certains temps? \n
                         Réponse 🟢 : Oui
-                        Réponse 🟡 : Non pas totalement!!!!!
+                        Réponse 🟡 : Non pas totalement
                         Réponse 🔴 : Non
                         Réponse 🟣 : Je sais pas
                     `)
@@ -410,9 +410,9 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 4️⃣')
                     .setDescription(`
-                        L'herpès disparaît-il au bout d'un certain temps? \n
+                        L'herpès disparaît-il au bout d'un certains temps? \n
                         Réponse 🟢 : Oui
-                        Réponse 🟡 : Non pas totalement!!!!!
+                        Réponse 🟡 : Non pas totalement
                         Réponse 🔴 : Non
                         Réponse 🟣 : Je sais pas
                     `)
@@ -443,10 +443,10 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                        Qui sont les gens le plus touché par l'herpès ? \n
-                        Réponse 🟢 : Les moins de 10ans 
-                        Réponse 🟡 : Les plus de 90ans
-                        Réponse 🔴 : Les moins de 50ans!!!!!!
+                        Qui sont les gens les plus touchés par l'herpès ? \n
+                        Réponse 🟢 : Les moins de 10 ans
+                        Réponse 🟡 : Les plus de 90 ans
+                        Réponse 🔴 : Les moins de 50 ans
                         Réponse 🟣 : Les bébés
                     `)
                     .setColor("DarkGold")
@@ -476,10 +476,10 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                        Qui sont les gens le plus touché par l'herpès ? \n
-                        Réponse 🟢 : Les moins de 10ans 
-                        Réponse 🟡 : Les plus de 90ans
-                        Réponse 🔴 : Les moins de 50ans!!!!!!
+                        Qui sont les gens les plus touchés par l'herpès ? \n
+                        Réponse 🟢 : Les moins de 10 ans
+                        Réponse 🟡 : Les plus de 90 ans
+                        Réponse 🔴 : Les moins de 50 ans
                         Réponse 🟣 : Les bébés
                     `)
                     .setColor("DarkGold")
@@ -509,10 +509,10 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                        Qui sont les gens le plus touché par l'herpès ? \n
-                        Réponse 🟢 : Les moins de 10ans 
-                        Réponse 🟡 : Les plus de 90ans
-                        Réponse 🔴 : Les moins de 50ans!!!!!!
+                        Qui sont les gens les plus touchés par l'herpès ? \n
+                        Réponse 🟢 : Les moins de 10 ans
+                        Réponse 🟡 : Les plus de 90 ans
+                        Réponse 🔴 : Les moins de 50 ans
                         Réponse 🟣 : Les bébés
                     `)
                     .setColor("DarkGold")
@@ -542,10 +542,10 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                        Qui sont les gens le plus touché par l'herpès ? \n
-                        Réponse 🟢 : Les moins de 10ans 
-                        Réponse 🟡 : Les plus de 90ans
-                        Réponse 🔴 : Les moins de 50ans!!!!!!
+                        Qui sont les gens les plus touchés par l'herpès ? \n
+                        Réponse 🟢 : Les moins de 10 ans
+                        Réponse 🟡 : Les plus de 90 ans
+                        Réponse 🔴 : Les moins de 50 ans
                         Réponse 🟣 : Les bébés
                     `)
                     .setColor("DarkGold")

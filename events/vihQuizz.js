@@ -14,8 +14,8 @@ module.exports = {
                         Quel est l'autre nom du VIH ? \n
                             Réponse 🟢 : Vascularité infectionnaire humaine
                             Réponse 🟡 : Verticalité intra humaine
-                            Réponse 🔴 : Virus de l’Immunodéficience Humaine !!!!!
-                            Réponse 🟣 : Venin invisible pour l'hummain
+                            Réponse 🔴 : Virus de l’immunodéficience humaine
+                            Réponse 🟣 : Venin invisible pour l'humain
                         `)
                         .setColor("DarkGold")
                     
@@ -48,7 +48,7 @@ module.exports = {
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
                     On ne peut pas être contaminé(e) par le VIH si : \n
-                        Réponse 🟢 : Votre partenaire utilise un préservatif lors d'un rapport sexuel!!!!!!
+                        Réponse 🟢 : Votre partenaire utilise un préservatif lors d'un rapport sexuel
                         Réponse 🟡 : Votre partenaire se retire avant d’éjaculer
                         Réponse 🔴 : Votre partenaire pratique seulement la sodomie sans préservatif
                         Réponse 🟣 : Votre partenaire se nettoie le sexe avant un rapport sexuel
@@ -81,7 +81,7 @@ module.exports = {
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
                         On ne peut pas être contaminé(e) par le VIH si : \n
-                        Réponse 🟢 : Votre partenaire utilise un préservatif lors d'un rapport sexuel!!!!!!
+                        Réponse 🟢 : Votre partenaire utilise un préservatif lors d'un rapport sexuel
                         Réponse 🟡 : Votre partenaire se retire avant d’éjaculer
                         Réponse 🔴 : Votre partenaire pratique seulement la sodomie sans préservatif
                         Réponse 🟣 : Votre partenaire se nettoie le sexe avant un rapport sexuel
@@ -114,7 +114,7 @@ module.exports = {
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
                         On ne peut pas être contaminé(e) par le VIH si : \n
-                        Réponse 🟢 : Votre partenaire utilise un préservatif lors d'un rapport sexuel!!!!!!
+                        Réponse 🟢 : Votre partenaire utilise un préservatif lors d'un rapport sexuel
                         Réponse 🟡 : Votre partenaire se retire avant d’éjaculer
                         Réponse 🔴 : Votre partenaire pratique seulement la sodomie sans préservatif
                         Réponse 🟣 : Votre partenaire se nettoie le sexe avant un rapport sexuel
@@ -147,7 +147,7 @@ module.exports = {
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
                         On ne peut pas être contaminé(e) par le VIH si : \n
-                        Réponse 🟢 : Votre partenaire utilise un préservatif lors d'un rapport sexuel!!!!!!
+                        Réponse 🟢 : Votre partenaire utilise un préservatif lors d'un rapport sexuel
                         Réponse 🟡 : Votre partenaire se retire avant d’éjaculer
                         Réponse 🔴 : Votre partenaire pratique seulement la sodomie sans préservatif
                         Réponse 🟣 : Votre partenaire se nettoie le sexe avant un rapport sexuel
@@ -181,9 +181,9 @@ module.exports = {
                     .setDescription(`
                         Qu'engendre le VIH ? \n
                         Réponse 🟢 : Une perte de ses organes génitaux
-                        Réponse 🟡 : De mauvaise note a l'école
+                        Réponse 🟡 : De mauvaises notes à l'école
                         Réponse 🔴 : 15 jours en prison
-                        Réponse 🟣 : Le sida!
+                        Réponse 🟣 : Le sida
                     `)
                     .setColor("DarkGold")
                 
@@ -214,9 +214,9 @@ module.exports = {
                     .setDescription(`
                         Qu'engendre le VIH ? \n
                         Réponse 🟢 : Une perte de ses organes génitaux
-                        Réponse 🟡 : De mauvaise note a l'école
+                        Réponse 🟡 : De mauvaises notes à l'école
                         Réponse 🔴 : 15 jours en prison
-                        Réponse 🟣 : Le sida!
+                        Réponse 🟣 : Le sida
                     `)
                     .setColor("DarkGold")
                 
@@ -247,9 +247,9 @@ module.exports = {
                     .setDescription(`
                         Qu'engendre le VIH ? \n
                         Réponse 🟢 : Une perte de ses organes génitaux
-                        Réponse 🟡 : De mauvaise note a l'école
+                        Réponse 🟡 : De mauvaises notes à l'école
                         Réponse 🔴 : 15 jours en prison
-                        Réponse 🟣 : Le sida!
+                        Réponse 🟣 : Le sida
                     `)
                     .setColor("DarkGold")
                 
@@ -280,9 +280,9 @@ module.exports = {
                     .setDescription(`
                         Qu'engendre le VIH ? \n
                         Réponse 🟢 : Une perte de ses organes génitaux
-                        Réponse 🟡 : De mauvaise note a l'école
+                        Réponse 🟡 : De mauvaises notes à l'école
                         Réponse 🔴 : 15 jours en prison
-                        Réponse 🟣 : Le sida!
+                        Réponse 🟣 : Le sida
                     `)
                     .setColor("DarkGold")
                 
@@ -313,7 +313,7 @@ module.exports = {
                     .setDescription(`
                         Quel est le symbole de la lutte contre le sida? \n
                         Réponse 🟢 : Un préservatif troué
-                        Réponse 🟡 : Un ruban rouge!
+                        Réponse 🟡 : Un ruban rouge
                         Réponse 🔴 : Une seringue
                         Réponse 🟣 : Un virus rouge
                     `)
@@ -346,7 +346,7 @@ module.exports = {
                     .setDescription(`
                         Quel est le symbole de la lutte contre le sida? \n
                         Réponse 🟢 : Un préservatif troué
-                        Réponse 🟡 : Un ruban rouge!
+                        Réponse 🟡 : Un ruban rouge
                         Réponse 🔴 : Une seringue
                         Réponse 🟣 : Un virus rouge
                     `)
@@ -379,7 +379,7 @@ module.exports = {
                     .setDescription(`
                         Quel est le symbole de la lutte contre le sida? \n
                         Réponse 🟢 : Un préservatif troué
-                        Réponse 🟡 : Un ruban rouge!
+                        Réponse 🟡 : Un ruban rouge
                         Réponse 🔴 : Une seringue
                         Réponse 🟣 : Un virus rouge
                     `)
@@ -412,7 +412,7 @@ module.exports = {
                     .setDescription(`
                         Quel est le symbole de la lutte contre le sida? \n
                         Réponse 🟢 : Un préservatif troué
-                        Réponse 🟡 : Un ruban rouge!
+                        Réponse 🟡 : Un ruban rouge
                         Réponse 🔴 : Une seringue
                         Réponse 🟣 : Un virus rouge
                     `)
@@ -446,7 +446,7 @@ module.exports = {
                         Comment se transmet le VIH? \n
                         Réponse 🟢 : Un baiser
                         Réponse 🟡 : Un câlin
-                        Réponse 🔴 : Pénétration (anale ou vaginale)!!!!!!!!
+                        Réponse 🔴 : Pénétration (anale ou vaginale)!!
                         Réponse 🟣 : En crachant sur une personne
                     `)
                     .setColor("DarkGold")
@@ -479,7 +479,7 @@ module.exports = {
                         Comment se transmet le VIH? \n
                         Réponse 🟢 : Un baiser
                         Réponse 🟡 : Un câlin
-                        Réponse 🔴 : Pénétration (anale ou vaginale)!!!!!!!!
+                        Réponse 🔴 : Pénétration (anale ou vaginale)
                         Réponse 🟣 : En crachant sur une personne
                     `)
                     .setColor("DarkGold")
@@ -512,7 +512,7 @@ module.exports = {
                         Comment se transmet le VIH? \n
                         Réponse 🟢 : Un baiser
                         Réponse 🟡 : Un câlin
-                        Réponse 🔴 : Pénétration (anale ou vaginale)!!!!!!!!
+                        Réponse 🔴 : Pénétration (anale ou vaginale)
                         Réponse 🟣 : En crachant sur une personne
                     `)
                     .setColor("DarkGold")
@@ -545,7 +545,7 @@ module.exports = {
                         Comment se transmet le VIH? \n
                         Réponse 🟢 : Un baiser
                         Réponse 🟡 : Un câlin
-                        Réponse 🔴 : Pénétration (anale ou vaginale)!!!!!!!!
+                        Réponse 🔴 : Pénétration (anale ou vaginale)
                         Réponse 🟣 : En crachant sur une personne
                     `)
                     .setColor("DarkGold")

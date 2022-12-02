@@ -11,9 +11,9 @@ module.exports = {
                     const embed = new EmbedBuilder()
                         .setTitle('Question numéro 1️⃣')
                         .setDescription(`
-                        Quand a été découvert la syphilis ? \n
+                        Quand a été découverte la syphilis ? \n
                             Réponse 🟢 : 2019
-                            Réponse 🟡 : 1905!!!!!!
+                            Réponse 🟡 : 1905
                             Réponse 🔴 : 1087
                             Réponse 🟣 : -327
                         `)
@@ -47,8 +47,8 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                    La syphilis peut elle être transmis de la mère à l'enfant pendant la grossesse ? \n
-                        Réponse 🟢 : Oui!!!
+                    La syphilis peut-elle être transmise de la mère à l'enfant pendant la grossesse ? \n
+                        Réponse 🟢 : Oui
                         Réponse 🟡 : Peut-être
                         Réponse 🔴 : Non
                         Réponse 🟣 : Je ne sais pas
@@ -80,8 +80,8 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                    La syphilis peut elle être transmis de la mère à l'enfant pendant la grossesse ? \n
-                        Réponse 🟢 : Oui!!!
+                    La syphilis peut-elle être transmise de la mère à l'enfant pendant la grossesse ? \n
+                        Réponse 🟢 : Oui
                         Réponse 🟡 : Peut-être
                         Réponse 🔴 : Non
                         Réponse 🟣 : Je ne sais pas
@@ -113,8 +113,8 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                    La syphilis peut elle être transmis de la mère à l'enfant pendant la grossesse ? \n
-                        Réponse 🟢 : Oui!!!
+                    La syphilis peut-elle être transmise de la mère à l'enfant pendant la grossesse ? \n
+                        Réponse 🟢 : Oui
                         Réponse 🟡 : Peut-être
                         Réponse 🔴 : Non
                         Réponse 🟣 : Je ne sais pas
@@ -146,8 +146,8 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                    La syphilis peut elle être transmis de la mère à l'enfant pendant la grossesse ? \n
-                        Réponse 🟢 : Oui!!!
+                    La syphilis peut-elle être transmise de la mère à l'enfant pendant la grossesse ? \n
+                        Réponse 🟢 : Oui
                         Réponse 🟡 : Peut-être
                         Réponse 🔴 : Non
                         Réponse 🟣 : Je ne sais pas
@@ -180,7 +180,7 @@ module.exports = {
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
                     La syphilis a-t-elle des conséquences sur la grossesse ? \n
-                        Réponse 🟢 : Oui!!!!!
+                        Réponse 🟢 : Oui
                         Réponse 🟡 : Peut-être
                         Réponse 🔴 : Non
                         Réponse 🟣 : Je ne sais pas
@@ -213,7 +213,7 @@ module.exports = {
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
                     La syphilis a-t-elle des conséquences sur la grossesse ? \n
-                        Réponse 🟢 : Oui!!!!!
+                        Réponse 🟢 : Oui
                         Réponse 🟡 : Peut-être
                         Réponse 🔴 : Non
                         Réponse 🟣 : Je ne sais pas
@@ -246,7 +246,7 @@ module.exports = {
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
                     La syphilis a-t-elle des conséquences sur la grossesse ? \n
-                        Réponse 🟢 : Oui!!!!!
+                        Réponse 🟢 : Oui
                         Réponse 🟡 : Peut-être
                         Réponse 🔴 : Non
                         Réponse 🟣 : Je ne sais pas
@@ -279,7 +279,7 @@ module.exports = {
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
                     La syphilis a-t-elle des conséquences sur la grossesse ? \n
-                        Réponse 🟢 : Oui!!!!!
+                        Réponse 🟢 : Oui
                         Réponse 🟡 : Peut-être
                         Réponse 🔴 : Non
                         Réponse 🟣 : Je ne sais pas
@@ -313,7 +313,7 @@ module.exports = {
                     .setDescription(`
                         Une question ? \n
                         Réponse 🟢 : Malformation
-                        Réponse 🟡 : Mort!!!!!
+                        Réponse 🟡 : Mort
                         Réponse 🔴 : Perte de la vue
                         Réponse 🟣 : Un double appareil génital
                     `)
@@ -346,7 +346,7 @@ module.exports = {
                     .setDescription(`
                     Quelle est la conséquence la plus dramatique sur le bébé ? \n
                         Réponse 🟢 : Malformation
-                        Réponse 🟡 : Mort!!!!!
+                        Réponse 🟡 : Mort
                         Réponse 🔴 : Perte de la vue
                         Réponse 🟣 : Un double appareil génital
                     `)
@@ -379,7 +379,7 @@ module.exports = {
                     .setDescription(`
                     Quelle est la conséquence la plus dramatique sur le bébé ? \n
                         Réponse 🟢 : Malformation
-                        Réponse 🟡 : Mort!!!!!
+                        Réponse 🟡 : Mort
                         Réponse 🔴 : Perte de la vue
                         Réponse 🟣 : Un double appareil génital
                     `)
@@ -412,7 +412,7 @@ module.exports = {
                     .setDescription(`
                     Quelle est la conséquence la plus dramatique sur le bébé ? \n
                         Réponse 🟢 : Malformation
-                        Réponse 🟡 : Mort!!!!!
+                        Réponse 🟡 : Mort
                         Réponse 🔴 : Perte de la vue
                         Réponse 🟣 : Un double appareil génital
                     `)
@@ -443,11 +443,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                    Où la syphilis est elle le plus présent ? \n
+                    Où la syphilis est elle la plus présente ? \n
                         Réponse 🟢 : En Océanie
                         Réponse 🟡 : En Asie
                         Réponse 🔴 : En Amérique du sud
-                        Réponse 🟣 : En Afrique!!!!
+                        Réponse 🟣 : En Afrique
                     `)
                     .setColor("DarkGold")
                 
@@ -476,11 +476,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                    Où la syphilis est elle le plus présent ? \n
+                    Où la syphilis est elle la plus présente ? \n
                         Réponse 🟢 : En Océanie
                         Réponse 🟡 : En Asie
                         Réponse 🔴 : En Amérique du sud
-                        Réponse 🟣 : En Afrique!!!!
+                        Réponse 🟣 : En Afrique
                     `)
                     .setColor("DarkGold")
                 
@@ -509,11 +509,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                    Où la syphilis est elle le plus présent ? \n
+                    Où la syphilis est elle la plus présente ? \n
                         Réponse 🟢 : En Océanie
                         Réponse 🟡 : En Asie
                         Réponse 🔴 : En Amérique du sud
-                        Réponse 🟣 : En Afrique!!!!
+                        Réponse 🟣 : En Afrique
                     `)
                     .setColor("DarkGold")
                 
@@ -542,11 +542,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                    Où la syphilis est elle le plus présent ? \n
+                    Où la syphilis est elle la plus présente ? \n
                         Réponse 🟢 : En Océanie
                         Réponse 🟡 : En Asie
                         Réponse 🔴 : En Amérique du sud
-                        Réponse 🟣 : En Afrique!!!!
+                        Réponse 🟣 : En Afrique
                     `)
                     .setColor("DarkGold")
                 

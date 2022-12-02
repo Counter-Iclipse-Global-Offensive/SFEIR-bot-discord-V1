@@ -13,7 +13,7 @@ module.exports = {
                         .setDescription(`
                             Le préservatif est-il efficace contre le papillomavirus ? \n
                             Réponse 🟢 : Oui
-                            Réponse 🟡 : Non!!!!!!
+                            Réponse 🟡 : Non
                             Réponse 🔴 : Peut-être
                             Réponse 🟣 : Je ne sais pas
                         `)
@@ -47,11 +47,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                        Donc quel est le meilleur moyen pour ne pas avoir le papillomavirus  ? \n
+                        Donc quel est le meilleur moyen de ne pas avoir le papillomavirus  ? \n
                         Réponse 🟢 : La pillule
                         Réponse 🟡 : Ne parler avec personne
                         Réponse 🔴 : Tuer tous les papillons de la planète
-                        Réponse 🟣 : La vacination!!!!
+                        Réponse 🟣 : La vaccination
                     `)
                     .setColor("DarkGold")
                 
@@ -84,7 +84,7 @@ module.exports = {
                         Réponse 🟢 : La pillule
                         Réponse 🟡 : Ne parler avec personne
                         Réponse 🔴 : Tuer tous les papillons de la planète
-                        Réponse 🟣 : La vacination!!!!
+                        Réponse 🟣 : La vaccination
                     `)
                     .setColor("DarkGold")
                 
@@ -117,7 +117,7 @@ module.exports = {
                         Réponse 🟢 : La pillule
                         Réponse 🟡 : Ne parler avec personne
                         Réponse 🔴 : Tuer tous les papillons de la planète
-                        Réponse 🟣 : La vacination!!!!
+                        Réponse 🟣 : La vaccination
                     `)
                     .setColor("DarkGold")
                 
@@ -150,7 +150,7 @@ module.exports = {
                         Réponse 🟢 : La pillule
                         Réponse 🟡 : Ne parler avec personne
                         Réponse 🔴 : Tuer tous les papillons de la planète
-                        Réponse 🟣 : La vacination!!!!
+                        Réponse 🟣 : La vaccination
                     `)
                     .setColor("DarkGold")
                 
@@ -180,10 +180,10 @@ module.exports = {
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
                         Qu'engendre le papillomavirus  ? \n
-                        Réponse 🟢 : Des cancers!!!!!!
+                        Réponse 🟢 : Des cancers
                         Réponse 🟡 : Des papillons dans le ventre
                         Réponse 🔴 : Un changement de sexe
-                        Réponse 🟣 : Accelère les battements du coeur 
+                        Réponse 🟣 : Accélère les battements du coeur 
                     `)
                     .setColor("DarkGold")
                 
@@ -213,10 +213,10 @@ module.exports = {
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
                         Qu'engendre le papillomavirus  ? \n
-                        Réponse 🟢 : Des cancers!!!!!!
+                        Réponse 🟢 : Des cancers
                         Réponse 🟡 : Des papillons dans le ventre
                         Réponse 🔴 : Un changement de sexe
-                        Réponse 🟣 : Accelère les battements du coeur 
+                        Réponse 🟣 : Accélère les battements du coeur 
                     `)
                     .setColor("DarkGold")
                 
@@ -246,10 +246,10 @@ module.exports = {
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
                         Qu'engendre le papillomavirus  ? \n
-                        Réponse 🟢 : Des cancers!!!!!!
+                        Réponse 🟢 : Des cancers
                         Réponse 🟡 : Des papillons dans le ventre
                         Réponse 🔴 : Un changement de sexe
-                        Réponse 🟣 : Accelère les battements du coeur 
+                        Réponse 🟣 : Accélère les battements du coeur 
                     `)
                     .setColor("DarkGold")
                 
@@ -279,10 +279,10 @@ module.exports = {
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
                         Qu'engendre le papillomavirus  ? \n
-                        Réponse 🟢 : Des cancers!!!!!!
+                        Réponse 🟢 : Des cancers
                         Réponse 🟡 : Des papillons dans le ventre
                         Réponse 🔴 : Un changement de sexe
-                        Réponse 🟣 : Accelère les battements du coeur 
+                        Réponse 🟣 : Accélère les battements du coeur 
                     `)
                     .setColor("DarkGold")
                 
@@ -312,7 +312,7 @@ module.exports = {
                     .setTitle('Question numéro 4️⃣')
                     .setDescription(`
                         Le papillomavirus a-t-il un impact sur la grossesse? ? \n
-                        Réponse 🟢 : Oui!!!!
+                        Réponse 🟢 : Oui
                         Réponse 🟡 : Non
                         Réponse 🔴 : Peut-être
                         Réponse 🟣 : Je ne sais pas
@@ -345,7 +345,7 @@ module.exports = {
                     .setTitle('Question numéro 4️⃣')
                     .setDescription(`
                         Le papillomavirus a-t-il un impact sur la grossesse? ? \n
-                        Réponse 🟢 : Oui!!!!
+                        Réponse 🟢 : Oui
                         Réponse 🟡 : Non
                         Réponse 🔴 : Peut-être
                         Réponse 🟣 : Je ne sais pas
@@ -378,7 +378,7 @@ module.exports = {
                     .setTitle('Question numéro 4️⃣')
                     .setDescription(`
                         Le papillomavirus a-t-il un impact sur la grossesse? ? \n
-                        Réponse 🟢 : Oui!!!!
+                        Réponse 🟢 : Oui
                         Réponse 🟡 : Non
                         Réponse 🔴 : Peut-être
                         Réponse 🟣 : Je ne sais pas
@@ -411,7 +411,7 @@ module.exports = {
                     .setTitle('Question numéro 4️⃣')
                     .setDescription(`
                         Le papillomavirus a-t-il un impact sur la grossesse? ? \n
-                        Réponse 🟢 : Oui!!!!
+                        Réponse 🟢 : Oui
                         Réponse 🟡 : Non
                         Réponse 🔴 : Peut-être
                         Réponse 🟣 : Je ne sais pas

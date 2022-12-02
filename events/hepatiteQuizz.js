@@ -14,7 +14,7 @@ module.exports = {
                         L'hépatite B touche quel organe ? \n
                             Réponse 🟢 : Du pancréas
                             Réponse 🟡 : Du rein
-                            Réponse 🔴 : Du foie!!!!!!!
+                            Réponse 🔴 : Du foie
                             Réponse 🟣 : De la vésicule biliaire
                         `)
                         .setColor("DarkGold")
@@ -47,11 +47,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                    Quelles sont les 2 façons d'être infecté par L'hépatite B ? \n
+                    Quelles sont les 2 façons d'être infecté par l'hépatite B ? \n
                         Réponse 🟢 : Relation sexuelle et salive
                         Réponse 🟡 : Salive et sang
                         Réponse 🔴 : Les animaux et l'hygiène
-                        Réponse 🟣 : Relation sexuelle et sang!!!!!!
+                        Réponse 🟣 : Relation sexuelle et sang
                     `)
                     .setColor("DarkGold")
                 
@@ -80,11 +80,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                    Quelles sont les 2 façons d'être infecté par L'hépatite B ? \n
+                    Quelles sont les 2 façons d'être infecté par l'hépatite B ? \n
                         Réponse 🟢 : Relation sexuelle et salive
                         Réponse 🟡 : Salive et sang
                         Réponse 🔴 : Les animaux et l'hygiène
-                        Réponse 🟣 : Relation sexuelle et sang!!!!!!
+                        Réponse 🟣 : Relation sexuelle et sang
                     `)
                     .setColor("DarkGold")
                 
@@ -113,11 +113,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                    Quelles sont les 2 façons d'être infecté par L'hépatite B ? \n
+                    Quelles sont les 2 façons d'être infecté par l'hépatite B ? \n
                         Réponse 🟢 : Relation sexuelle et salive
                         Réponse 🟡 : Salive et sang
                         Réponse 🔴 : Les animaux et l'hygiène
-                        Réponse 🟣 : Relation sexuelle et sang!!!!!!
+                        Réponse 🟣 : Relation sexuelle et sang
                     `)
                     .setColor("DarkGold")
                 
@@ -146,11 +146,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                    Quelles sont les 2 façons d'être infecté par L'hépatite B ? \n
+                    Quelles sont les 2 façons d'être infecté par l'hépatite B ? \n
                         Réponse 🟢 : Relation sexuelle et salive
                         Réponse 🟡 : Salive et sang
                         Réponse 🔴 : Les animaux et l'hygiène
-                        Réponse 🟣 : Relation sexuelle et sang!!!!!!
+                        Réponse 🟣 : Relation sexuelle et sang
                     `)
                     .setColor("DarkGold")
                 
@@ -179,11 +179,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
-                    Combien de personnes meurent de L'hépatite B en France par an ? \n
+                    Combien de personnes meurent de l'hépatite B en France par an ? \n
                         Réponse 🟢 : 500 personnes
                         Réponse 🟡 : 10000 personnes
-                        Réponse 🔴 : 1500 peronnes!!!!!
-                        Réponse 🟣 : 25 peronnes
+                        Réponse 🔴 : 1500 personnes
+                        Réponse 🟣 : 25 personnes
                     `)
                     .setColor("DarkGold")
                 
@@ -212,11 +212,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
-                    Combien de personnes meurent de L'hépatite B en France par an ? \n
+                    Combien de personnes meurent de l'hépatite B en France par an ? \n
                         Réponse 🟢 : 500 personnes
                         Réponse 🟡 : 10000 personnes
-                        Réponse 🔴 : 1500 peronnes!!!!!
-                        Réponse 🟣 : 25 peronnes
+                        Réponse 🔴 : 1500 personnes
+                        Réponse 🟣 : 25 personnes
                     `)
                     .setColor("DarkGold")
                 
@@ -245,11 +245,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
-                    Combien de personnes meurent de L'hépatite B en France par an ? \n
+                    Combien de personnes meurent de l'hépatite B en France par an ? \n
                         Réponse 🟢 : 500 personnes
                         Réponse 🟡 : 10000 personnes
-                        Réponse 🔴 : 1500 peronnes!!!!!
-                        Réponse 🟣 : 25 peronnes
+                        Réponse 🔴 : 1500 personnes
+                        Réponse 🟣 : 25 personnes
                     `)
                     .setColor("DarkGold")
                 
@@ -278,11 +278,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
-                    Combien de personnes meurent de L'hépatite B en France par an ? \n
+                    Combien de personnes meurent de l'hépatite B en France par an ? \n
                         Réponse 🟢 : 500 personnes
                         Réponse 🟡 : 10000 personnes
-                        Réponse 🔴 : 1500 peronnes!!!!!
-                        Réponse 🟣 : 25 peronnes
+                        Réponse 🔴 : 1500 personnes
+                        Réponse 🟣 : 25 personnes
                     `)
                     .setColor("DarkGold")
                 
@@ -311,9 +311,9 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 4️⃣')
                     .setDescription(`
-                    Dans quelle partie du monde L'hépatite B est le plus répandu ? \n
+                    Dans quelle partie du monde l'hépatite B est le plus répandu ? \n
                         Réponse 🟢 : Dans les pays développés
-                        Réponse 🟡 : Dans les pays peu développés!!!
+                        Réponse 🟡 : Dans les pays peu développés
                         Réponse 🔴 : Dans les pays en cours de développement
                         Réponse 🟣 : Je ne sais pas
                     `)
@@ -344,9 +344,9 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 4️⃣')
                     .setDescription(`
-                    Dans quelle partie du monde L'hépatite B est le plus répandu ? \n
+                    Dans quelle partie du monde l'hépatite B est le plus répandu ? \n
                         Réponse 🟢 : Dans les pays développés
-                        Réponse 🟡 : Dans les pays peu développés!!!
+                        Réponse 🟡 : Dans les pays peu développés
                         Réponse 🔴 : Dans les pays en cours de développement
                         Réponse 🟣 : Je ne sais pas
                     `)
@@ -377,9 +377,9 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 4️⃣')
                     .setDescription(`
-                    Dans quelle partie du monde L'hépatite B est le plus répandu ? \n
+                    Dans quelle partie du monde l'hépatite B est le plus répandu ? \n
                         Réponse 🟢 : Dans les pays développés
-                        Réponse 🟡 : Dans les pays peu développés!!!
+                        Réponse 🟡 : Dans les pays peu développés
                         Réponse 🔴 : Dans les pays en cours de développement
                         Réponse 🟣 : Je ne sais pas
                     `)
@@ -410,9 +410,9 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 4️⃣')
                     .setDescription(`
-                    Dans quelle partie du monde L'hépatite B est le plus répandu ? \n
+                    Dans quelle partie du monde l'hépatite B est le plus répandu ? \n
                         Réponse 🟢 : Dans les pays développés
-                        Réponse 🟡 : Dans les pays peu développés!!!
+                        Réponse 🟡 : Dans les pays peu développés
                         Réponse 🔴 : Dans les pays en cours de développement
                         Réponse 🟣 : Je ne sais pas
                     `)
@@ -443,8 +443,8 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                    En quelle année a été découvert L'hépatite B ? \n
-                        Réponse 🟢 : 1885!!!!!
+                    En quelle année a été découvert l'hépatite B ? \n
+                        Réponse 🟢 : 1885
                         Réponse 🟡 : 2021
                         Réponse 🔴 : 1111
                         Réponse 🟣 : -34
@@ -476,8 +476,8 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                    En quelle année a été découvert L'hépatite B ? \n
-                        Réponse 🟢 : 1885!!!!!
+                    En quelle année a été découvert l'hépatite B ? \n
+                        Réponse 🟢 : 1885
                         Réponse 🟡 : 2021
                         Réponse 🔴 : 1111
                         Réponse 🟣 : -34
@@ -509,8 +509,8 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                    En quelle année a été découvert L'hépatite B ? \n
-                        Réponse 🟢 : 1885!!!!!
+                    En quelle année a été découvert l'hépatite B ? \n
+                        Réponse 🟢 : 1885
                         Réponse 🟡 : 2021
                         Réponse 🔴 : 1111
                         Réponse 🟣 : -34
@@ -542,8 +542,8 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                    En quelle année a été découvert L'hépatite B ? \n
-                        Réponse 🟢 : 1885!!!!!
+                    En quelle année a été découvert l'hépatite B ? \n
+                        Réponse 🟢 : 1885
                         Réponse 🟡 : 2021
                         Réponse 🔴 : 1111
                         Réponse 🟣 : -34
