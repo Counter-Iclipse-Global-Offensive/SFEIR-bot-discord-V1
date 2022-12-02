@@ -443,11 +443,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                        Peut-on traiter l'infection au papillomavirus ? \n
+                        Réponse 🟢 : Oui si l'infection date de moins de 6 mois
+                        Réponse 🟡 : Oui si l'infection date de moins d'une semaine
+                        Réponse 🔴 : Il est impossible de la traiter mais s'éliminine toute seule !
+                        Réponse 🟣 : Il est impossible de la traiter et ne s'éliminine pas
                     `)
                     .setColor("DarkGold")
                 
@@ -476,11 +476,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                        Peut-on traiter l'infection au papillomavirus ? \n
+                        Réponse 🟢 : Oui si l'infection date de moins de 6 mois
+                        Réponse 🟡 : Oui si l'infection date de moins d'une semaine
+                        Réponse 🔴 : Il est impossible de la traiter mais s'éliminine toute seule !
+                        Réponse 🟣 : Il est impossible de la traiter et ne s'éliminine pas
                     `)
                     .setColor("DarkGold")
                 
@@ -509,11 +509,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                        Peut-on traiter l'infection au papillomavirus ? \n
+                        Réponse 🟢 : Oui si l'infection date de moins de 6 mois
+                        Réponse 🟡 : Oui si l'infection date de moins d'une semaine
+                        Réponse 🔴 : Il est impossible de la traiter mais s'éliminine toute seule !
+                        Réponse 🟣 : Il est impossible de la traiter et ne s'éliminine pas
                     `)
                     .setColor("DarkGold")
                 
@@ -542,11 +542,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                        Peut-on traiter l'infection au papillomavirus ? \n
+                        Réponse 🟢 : Oui si l'infection date de moins de 6 mois
+                        Réponse 🟡 : Oui si l'infection date de moins d'une semaine
+                        Réponse 🔴 : Il est impossible de la traiter mais s'éliminine toute seule !
+                        Réponse 🟣 : Il est impossible de la traiter et ne s'éliminine pas
                     `)
                     .setColor("DarkGold")
                 
