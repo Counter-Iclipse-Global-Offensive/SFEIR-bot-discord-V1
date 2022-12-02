@@ -13,133 +13,9 @@ module.exports = {
                     const newData = new memberData({ memberId: interaction.user.id });
                     newData.save();
                 } else {
-                    memberModel.hepatiteGoodAwnsers = 0;
+                    memberModel.hepatiteGoodAnswers = 0;
                     memberModel.save();
                 }
-
-                const embed2 = new EmbedBuilder()
-                    .setTitle('Question numéro 2️⃣')
-                    .setDescription(`
-                    Quelles sont les 2 façons d'être infecté par l'hépatite B ? \n
-                        Réponse 🟢 : Relation sexuelle et salive
-                        Réponse 🟡 : Salive et sang
-                        Réponse 🔴 : Les animaux et l'hygiène
-                        Réponse 🟣 : Relation sexuelle et sang
-                    `)
-                    .setColor("DarkGold")
-                
-                const row2 = new ActionRowBuilder()
-                    .addComponents(
-                        new ButtonBuilder()
-                            .setCustomId('hepatite_two_first_option')
-                            .setStyle(ButtonStyle.Primary)
-                            .setEmoji('🟢'),
-                        new ButtonBuilder()
-                            .setCustomId('hepatite_two_second_option')
-                            .setStyle(ButtonStyle.Primary)
-                            .setEmoji('🟡'),
-                        new ButtonBuilder()
-                            .setCustomId('hepatite_two_third_option')
-                            .setStyle(ButtonStyle.Primary)
-                            .setEmoji('🔴'),
-                        new ButtonBuilder()
-                            .setCustomId('hepatite_two_fourth_option')
-                            .setStyle(ButtonStyle.Primary)
-                            .setEmoji('🟣'),
-                    )
-                
-                const embed3 = new EmbedBuilder()
-                    .setTitle('Question numéro 3️⃣')
-                    .setDescription(`
-                    Combien de personnes meurent de l'hépatite B en France par an ? \n
-                        Réponse 🟢 : 500 personnes
-                        Réponse 🟡 : 10000 personnes
-                        Réponse 🔴 : 1500 personnes
-                        Réponse 🟣 : 25 personnes
-                    `)
-                    .setColor("DarkGold")
-                
-                const row3 = new ActionRowBuilder()
-                    .addComponents(
-                        new ButtonBuilder()
-                            .setCustomId('hepatite_three_first_option')
-                            .setStyle(ButtonStyle.Primary)
-                            .setEmoji('🟢'),
-                        new ButtonBuilder()
-                            .setCustomId('hepatite_three_second_option')
-                            .setStyle(ButtonStyle.Primary)
-                            .setEmoji('🟡'),
-                        new ButtonBuilder()
-                            .setCustomId('hepatite_three_third_option')
-                            .setStyle(ButtonStyle.Primary)
-                            .setEmoji('🔴'),
-                        new ButtonBuilder()
-                            .setCustomId('hepatite_three_fourth_option')
-                            .setStyle(ButtonStyle.Primary)
-                            .setEmoji('🟣'),
-                    )
-
-                const embed4 = new EmbedBuilder()
-                    .setTitle('Question numéro 4️⃣')
-                    .setDescription(`
-                    Dans quelle partie du monde l'hépatite B est le plus répandu ? \n
-                        Réponse 🟢 : Dans les pays développés
-                        Réponse 🟡 : Dans les pays peu développés
-                        Réponse 🔴 : Dans les pays en cours de développement
-                        Réponse 🟣 : Je ne sais pas
-                    `)
-                    .setColor("DarkGold")
-                
-                const row4 = new ActionRowBuilder()
-                    .addComponents(
-                        new ButtonBuilder()
-                            .setCustomId('hepatite_four_first_option')
-                            .setStyle(ButtonStyle.Primary)
-                            .setEmoji('🟢'),
-                        new ButtonBuilder()
-                            .setCustomId('hepatite_four_second_option')
-                            .setStyle(ButtonStyle.Primary)
-                            .setEmoji('🟡'),
-                        new ButtonBuilder()
-                            .setCustomId('hepatite_four_third_option')
-                            .setStyle(ButtonStyle.Primary)
-                            .setEmoji('🔴'),
-                        new ButtonBuilder()
-                            .setCustomId('hepatite_four_fourth_option')
-                            .setStyle(ButtonStyle.Primary)
-                            .setEmoji('🟣'),
-                    )
-
-                const embed5 = new EmbedBuilder()
-                    .setTitle('Question numéro 5️⃣')
-                    .setDescription(`
-                    En quelle année a été découvert l'hépatite B ? \n
-                        Réponse 🟢 : 1885
-                        Réponse 🟡 : 2021
-                        Réponse 🔴 : 1111
-                        Réponse 🟣 : -34
-                    `)
-                    .setColor("DarkGold")
-                
-                const row5 = new ActionRowBuilder()
-                    .addComponents(
-                        new ButtonBuilder()
-                            .setCustomId('hepatite_five_first_option')
-                            .setStyle(ButtonStyle.Primary)
-                            .setEmoji('🟢'),
-                        new ButtonBuilder()
-                            .setCustomId('hepatite_five_second_option')
-                            .setStyle(ButtonStyle.Primary)
-                            .setEmoji('🟡'),
-                        new ButtonBuilder()
-                            .setCustomId('hepatite_five_third_option')
-                            .setStyle(ButtonStyle.Primary)
-                            .setEmoji('🔴'),
-                        new ButtonBuilder()
-                            .setCustomId('hepatite_five_fourth_option')
-                            .setStyle(ButtonStyle.Primary)
-                            .setEmoji('🟣'),
-                    )
 
                 if (selected === 'second_option') {
                     const embed1 = new EmbedBuilder()
@@ -172,14 +48,6 @@ module.exports = {
                                 .setStyle(ButtonStyle.Primary)
                                 .setEmoji('🟣'),
                         )
-                    
-                        const finalEmbedFail = new EmbedBuilder()
-                        .setTitle('Vous avez échoué !')
-                        .setDescription(`
-                            Vous n'avez pas eu 5 bonnes réponses, vous avez donc échoué !
-                            Vous pouvez réassayer autant de fois que vous le souhaitez.
-                        `)
-                        .setColor("DarkRed")
 
                     await interaction.reply({ embeds: [embed1], components: [row1] });
                 }
@@ -187,25 +55,149 @@ module.exports = {
         } else if (interaction.isButton()) {
             const memberModel = await memberData.findOne({ memberId: interaction.user.id });
 
-            if(interaction.customId === 'hepatite_one_first_option') {
+            const embed2 = new EmbedBuilder()
+                .setTitle('Question numéro 2️⃣')
+                .setDescription(`
+                Quelles sont les 2 façons d'être infecté par l'hépatite B ? \n
+                    Réponse 🟢 : Relation sexuelle et salive
+                    Réponse 🟡 : Salive et sang
+                    Réponse 🔴 : Les animaux et l'hygiène
+                    Réponse 🟣 : Relation sexuelle et sang
+                `)
+                .setColor("DarkGold")
+            
+            const row2 = new ActionRowBuilder()
+                .addComponents(
+                    new ButtonBuilder()
+                        .setCustomId('hepatite_two_first_option')
+                        .setStyle(ButtonStyle.Primary)
+                        .setEmoji('🟢'),
+                    new ButtonBuilder()
+                        .setCustomId('hepatite_two_second_option')
+                        .setStyle(ButtonStyle.Primary)
+                        .setEmoji('🟡'),
+                    new ButtonBuilder()
+                        .setCustomId('hepatite_two_third_option')
+                        .setStyle(ButtonStyle.Primary)
+                        .setEmoji('🔴'),
+                    new ButtonBuilder()
+                        .setCustomId('hepatite_two_fourth_option')
+                        .setStyle(ButtonStyle.Primary)
+                        .setEmoji('🟣'),
+                )
+            
+            const embed3 = new EmbedBuilder()
+                .setTitle('Question numéro 3️⃣')
+                .setDescription(`
+                Combien de personnes meurent de l'hépatite B en France par an ? \n
+                    Réponse 🟢 : 500 personnes
+                    Réponse 🟡 : 10000 personnes
+                    Réponse 🔴 : 1500 personnes
+                    Réponse 🟣 : 25 personnes
+                `)
+                .setColor("DarkGold")
+            
+            const row3 = new ActionRowBuilder()
+                .addComponents(
+                    new ButtonBuilder()
+                        .setCustomId('hepatite_three_first_option')
+                        .setStyle(ButtonStyle.Primary)
+                        .setEmoji('🟢'),
+                    new ButtonBuilder()
+                        .setCustomId('hepatite_three_second_option')
+                        .setStyle(ButtonStyle.Primary)
+                        .setEmoji('🟡'),
+                    new ButtonBuilder()
+                        .setCustomId('hepatite_three_third_option')
+                        .setStyle(ButtonStyle.Primary)
+                        .setEmoji('🔴'),
+                    new ButtonBuilder()
+                        .setCustomId('hepatite_three_fourth_option')
+                        .setStyle(ButtonStyle.Primary)
+                        .setEmoji('🟣'),
+                )
+
+            const embed4 = new EmbedBuilder()
+                .setTitle('Question numéro 4️⃣')
+                .setDescription(`
+                Dans quelle partie du monde l'hépatite B est le plus répandu ? \n
+                    Réponse 🟢 : Dans les pays développés
+                    Réponse 🟡 : Dans les pays peu développés
+                    Réponse 🔴 : Dans les pays en cours de développement
+                    Réponse 🟣 : Je ne sais pas
+                `)
+                .setColor("DarkGold")
+            
+            const row4 = new ActionRowBuilder()
+                .addComponents(
+                    new ButtonBuilder()
+                        .setCustomId('hepatite_four_first_option')
+                        .setStyle(ButtonStyle.Primary)
+                        .setEmoji('🟢'),
+                    new ButtonBuilder()
+                        .setCustomId('hepatite_four_second_option')
+                        .setStyle(ButtonStyle.Primary)
+                        .setEmoji('🟡'),
+                    new ButtonBuilder()
+                        .setCustomId('hepatite_four_third_option')
+                        .setStyle(ButtonStyle.Primary)
+                        .setEmoji('🔴'),
+                    new ButtonBuilder()
+                        .setCustomId('hepatite_four_fourth_option')
+                        .setStyle(ButtonStyle.Primary)
+                        .setEmoji('🟣'),
+                )
+
+            const embed5 = new EmbedBuilder()
+                .setTitle('Question numéro 5️⃣')
+                .setDescription(`
+                En quelle année a été découvert l'hépatite B ? \n
+                    Réponse 🟢 : 1885
+                    Réponse 🟡 : 2021
+                    Réponse 🔴 : 1111
+                    Réponse 🟣 : -34
+                `)
+                .setColor("DarkGold")
+            
+            const row5 = new ActionRowBuilder()
+                .addComponents(
+                    new ButtonBuilder()
+                        .setCustomId('hepatite_five_first_option')
+                        .setStyle(ButtonStyle.Primary)
+                        .setEmoji('🟢'),
+                    new ButtonBuilder()
+                        .setCustomId('hepatite_five_second_option')
+                        .setStyle(ButtonStyle.Primary)
+                        .setEmoji('🟡'),
+                    new ButtonBuilder()
+                        .setCustomId('hepatite_five_third_option')
+                        .setStyle(ButtonStyle.Primary)
+                        .setEmoji('🔴'),
+                    new ButtonBuilder()
+                        .setCustomId('hepatite_five_fourth_option')
+                        .setStyle(ButtonStyle.Primary)
+                        .setEmoji('🟣'),
+                )
+
+                const finalEmbedFail = new EmbedBuilder()
+                    .setTitle('Vous avez échoué !')
+                    .setDescription(`
+                        Vous n'avez pas eu 5 bonnes réponses, vous avez donc échoué !
+                        Vous pouvez réassayer autant de fois que vous le souhaitez.
+                    `)
+                    .setColor("DarkRed")
+
+            if(interaction.customId === 'hepatite_one_first_option' || interaction.customId === 'hepatite_one_second_option' || interaction.customId === 'hepatite_one_fourth_option') {
                 await interaction.reply({ embeds: [embed2], components: [row2] });
-            }
-            else if(interaction.customId === 'hepatite_one_second_option')
-            {
-                await interaction.reply({ embeds: [embeb2], components: [row2] });
             }
             else if(interaction.customId === 'hepatite_one_third_option')
             {
-                memberModel.vihGoodAwnsers++;
+                memberModel.vihGoodAnswers++;
                 await memberModel.save();
 
                 await interaction.reply({ embeds: [embed2], components: [row2] });
             }
-            else if(interaction.customId === 'hepatite_one_fourth_option')
-            {
-                await interaction.reply({ embeds: [embed2], components: [row2] });
-            }
-            else if(interaction.customId === 'hepatite_two_first_option')
+            else if(interaction.customId === 'hepatite_two_first_option' || interaction.customId === 'hepatite_two_second_option' || interaction.customId === 'hepatite_two_third_option')
             {
                 await interaction.reply({ embeds: [embed3], components: [row] });
             }
@@ -219,7 +211,7 @@ module.exports = {
             }
             else if(interaction.customId === 'hepatite_two_fourth_option')
             {
-                memberModel.vihGoodAwnsers++;
+                memberModel.hepatiteGoodAnswers++;
                 await memberModel.save();
 
                 await interaction.reply({ embeds: [embed3], components: [row3] });
@@ -234,7 +226,7 @@ module.exports = {
             }
             else if(interaction.customId === 'hepatite_three_third_option')
             {
-                memberModel.vihGoodAwnsers++;
+                memberModel.hepatiteGoodAnswers++;
                 await memberModel.save();
 
                 await interaction.reply({ embeds: [embed4], components: [row4] });
@@ -249,7 +241,7 @@ module.exports = {
             }
             else if(interaction.customId === 'hepatite_four_second_option')
             {
-                memberModel.vihGoodAwnsers++;
+                memberModel.hepatiteGoodAnswers++;
                 await memberModel.save();
 
                 await interaction.reply({ embeds: [embed5], components: [row5] });
@@ -264,7 +256,7 @@ module.exports = {
             }
             else if(interaction.customId === 'hepatite_five_first_option')
             {
-                if (memberModel.vihGoodAwnsers === 4) {
+                if (memberModel.hepatiteGoodAnswers === 4) {
                     if(memberModel.hepatiteBadge === false) {
                         memberModel.hepatiteBadge = true;
                         await memberModel.save();

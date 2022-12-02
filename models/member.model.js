@@ -9,7 +9,7 @@ const memberSchema = mongoose.Schema({
         type: Boolean,
         default: false
     },
-    vihGoodAwnsers: {
+    vihGoodAnswers: {
         type: Number,
         default: 0
     },
@@ -17,7 +17,7 @@ const memberSchema = mongoose.Schema({
         type: Boolean,
         default: false
     },
-    hepatiteGoodAwnsers: {
+    hepatiteGoodAnswers: {
         type: Number,
         default: 0
     },
@@ -25,7 +25,7 @@ const memberSchema = mongoose.Schema({
         type: Boolean,
         default: false
     },
-    papillomavirusGoodAwnsers: {
+    papillomavirusGoodAnswers: {
         type: Number,
         default: 0
     },
@@ -33,7 +33,7 @@ const memberSchema = mongoose.Schema({
         type: Boolean,
         default: false
     },
-    herpesGoodAwnsers: {
+    herpesGoodAnswers: {
         type: Number,
         default: 0
     },
@@ -41,7 +41,7 @@ const memberSchema = mongoose.Schema({
         type: Boolean,
         default: false
     },
-    syphilisGoodAwnsers: {
+    syphilisGoodAnswers: {
         type: Number,
         default: 0
     }
