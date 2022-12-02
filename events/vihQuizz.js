@@ -1,5 +1,4 @@
 const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
-const memberModel = require('../models/member.model');
 const memberData = require('../models/member.model')
 
 module.exports = {

@@ -1,4 +1,5 @@
 const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js')
+const memberData = require('../models/member.model')
 
 module.exports = {
     name : 'interactionCreate',
