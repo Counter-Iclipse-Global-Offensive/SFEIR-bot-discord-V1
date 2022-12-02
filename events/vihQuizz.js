@@ -15,7 +15,7 @@ module.exports = {
                     const newData = new memberData({ memberId: interaction.user.id });
                     newData.save();
                 } else {
-                    memberModel.vihGoodAwnsers = 0;
+                    memberModel.vihGoodAnswers = 0;
                     memberModel.save();
                 }
 
@@ -189,84 +189,82 @@ module.exports = {
                 `)
                 .setColor("DarkRed")
 
-            if(interaction.customId === 'vih_one_first_option' || interaction.customId === 'vih_one_second_option' || interaction.customId === 'vih_one_fourth_option')
-            {
-                await interaction.reply({ embeds: [embed2], components: [row2] });
-            }
-            else if(interaction.customId === 'vih_one_third_option')
-            {
-                memberModel.vihGoodAwnsers++;
-                await memberModel.save();
-
-                await interaction.reply({ embeds: [embed2], components: [row2] });
-            }
-            else if(interaction.customId === 'vih_two_first_option')
-            {
-                memberModel.vihGoodAwnsers++;
-                memberModel.save();
-
-                await interaction.reply({ embeds: [embed3], components: [row3] });
-            }
-            else if(interaction.customId === 'vih_two_second_option' || interaction.customId === 'vih_two_third_option' || interaction.customId === 'vih_two_fourth_option')
-            {
-                await interaction.reply({ embeds: [embed3], components: [row3] });
-            }
-            else if(interaction.customId === 'vih_three_first_option' || interaction.customId === 'vih_three_second_option' || interaction.customId === 'vih_three_third_option')
-            {
-                await interaction.reply({ embeds: [embed4], components: [row4] });
-            }
-            else if(interaction.customId === 'vih_three_fourth_option')
-            {
-                memberModel.vihGoodAwnsers++;
-                await memberModel.save();
-
-                await interaction.reply({ embeds: [embed4], components: [row4] });
-            }
-            else if(interaction.customId === 'vih_four_first_option' || interaction.customId === 'vih_four_third_option' || interaction.customId === 'vih_four_fourth_option')
-            {
-                await interaction.reply({ embeds: [embed5], components: [row5] });
-            }
-            else if(interaction.customId === 'vih_four_second_option')
-            {
-                memberModel.vihGoodAwnsers++;
-                await memberModel.save();
-
-                await interaction.reply({ embeds: [embed5], components: [row5] });
-            }
-            else if(interaction.customId === 'vih_five_first_option' || interaction.customId === 'vih_five_second_option' || interaction.customId === 'vih_five_fourth_option')
-            {
+            switch(interaction.customId) {
+                case 'vih_one_first_option':
+                case 'vih_one_second_option':
+                case 'vih_one_fourth_option':
+                    await interaction.reply({ embeds: [embed2], components: [row2] });
+                    break;
+                case 'vih_one_third_option':
+                    memberModel.vihGoodAnswers++;
+                    await memberModel.save();
+                    await interaction.reply({ embeds: [embed2], components: [row2] });
+                    break;
+                case 'vih_two_third_option':
+                case 'vih_two_second_option':
+                case 'vih_two_fourth_option':
+                    await interaction.reply({ embeds: [embed3], components: [row3] });
+                    break;
+                case 'vih_two_first_option':
+                    memberModel.vihGoodAnswers++;
+                    await memberModel.save();
+                    await interaction.reply({ embeds: [embed3], components: [row3] });
+                    break;
+                case 'vih_three_first_option':
+                case 'vih_three_second_option':
+                case 'vih_three_third_option':
+                    await interaction.reply({ embeds: [embed4], components: [row4] });
+                    break;
+                case 'vih_three_fourth_option':
+                    memberModel.vihGoodAnswers++;
+                    await memberModel.save();
+                    await interaction.reply({ embeds: [embed4], components: [row4] });
+                    break;
+                case 'vih_four_first_option':
+                case 'vih_four_third_option':
+                case 'vih_four_fourth_option':
+                    await interaction.reply({ embeds: [embed5], components: [row5] });
+                    break;
+                case 'vih_four_second_option':
+                    memberModel.vihGoodAnswers++;
+                    await memberModel.save();
+                    await interaction.reply({ embeds: [embed5], components: [row5] });
+                    break;
+                case 'vih_five_first_option':
+                case 'vih_five_second_option':
+                case 'vih_five_fourth_option':
                 await interaction.reply({ embeds: [finalEmbedFail] });
-            }
-            else if(interaction.customId === 'vih_five_third_option')
-            {
-                if (memberModel.vihGoodAwnsers === 4) {
-                    if(memberModel.vihBadge === false) {
-                        memberModel.vihBadge = true;
-                        await memberModel.save();
-
-                        const finalEmbedSuccess = new EmbedBuilder()
-                            .setTitle('Vous avez réussi !')
-                            .setDescription(`
-                                Vous avez eu 5 bonnes réponses, vous avez donc réussi !
-                                Vous êtes récompensés d'un badge, votre collection est visionnable sur le site.
-                            `)
-                            .setColor("DarkGreen")
-
-                        await interaction.reply({ embeds: [finalEmbedSuccess] });
+                    break;
+                case 'vih_five_third_option':
+                    if (memberModel.vihGoodAnswers === 4) {
+                        if(memberModel.vihBadge === false) {
+                            memberModel.vihBadge = true;
+                            await memberModel.save();
+    
+                            const finalEmbedSuccess = new EmbedBuilder()
+                                .setTitle('Vous avez réussi !')
+                                .setDescription(`
+                                    Vous avez eu 5 bonnes réponses, vous avez donc réussi !
+                                    Vous êtes récompensés d'un badge, votre collection est visionnable sur le site.
+                                `)
+                                .setColor("DarkGreen")
+    
+                            await interaction.reply({ embeds: [finalEmbedSuccess] });
+                        } else {
+                            const finalEmbedSuccess = new EmbedBuilder()
+                                .setTitle('Vous avez réussi !')
+                                .setDescription(`
+                                    Vous avez eu 5 bonnes réponses, vous avez donc réussi !
+                                    Vous avez déjà reçu le badge correspondant, votre collection est visionnable sur le site.
+                                `)
+                                .setColor("DarkGreen")
+    
+                            await interaction.reply({ embeds: [finalEmbedSuccess] });
+                        }
                     } else {
-                        const finalEmbedSuccess = new EmbedBuilder()
-                            .setTitle('Vous avez réussi !')
-                            .setDescription(`
-                                Vous avez eu 5 bonnes réponses, vous avez donc réussi !
-                                Vous avez déjà reçu le badge correspondant, votre collection est visionnable sur le site.
-                            `)
-                            .setColor("DarkGreen")
-
-                        await interaction.reply({ embeds: [finalEmbedSuccess] });
+                        await interaction.reply({ embeds: [finalEmbedFail] });
                     }
-                } else {
-                    await interaction.reply({ embeds: [finalEmbedFail] });
-                }
+                    break;
             }
         }
     }
