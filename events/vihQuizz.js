@@ -232,7 +232,7 @@ module.exports = {
                 case 'vih_five_first_option':
                 case 'vih_five_second_option':
                 case 'vih_five_fourth_option':
-                await interaction.reply({ embeds: [finalEmbedFail] });
+                    await interaction.reply({ embeds: [finalEmbedFail] });
                     break;
                 case 'vih_five_third_option':
                     if (memberModel.vihGoodAnswers === 4) {

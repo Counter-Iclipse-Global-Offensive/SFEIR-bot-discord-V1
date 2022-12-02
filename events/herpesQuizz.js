@@ -175,81 +175,83 @@ module.exports = {
                     Vous pouvez réassayer autant de fois que vous le souhaitez.
                 `)
                 .setColor("DarkRed")
-            if(interaction.customId === 'herpes_one_first_option') {
-                await interaction.reply({ embeds: [embed2], components: [row2] });
-            } else if(interaction.customId === 'herpes_one_second_option') {
-                memberModel.herpesGoodAnswers++;
-                await memberModel.save();
-                await interaction.reply({ embeds: [embed2], components: [row2] });
-            } else if(interaction.customId === 'herpes_one_third_option') {
-                await interaction.reply({ embeds: [embed2], components: [row2] });
-            } else if(interaction.customId === 'herpes_one_fourth_option') {
-                await interaction.reply({ embeds: [embed2], components: [row2] });
-            } else if(interaction.customId === 'herpes_two_first_option') {
-                await interaction.reply({ embeds: [embed3], components: [row3] });
-            } else if(interaction.customId === 'herpes_two_second_option') {
-                await interaction.reply({ embeds: [embed3], components: [row3] });
-            } else if(interaction.customId === 'herpes_two_third_option') {
-                await interaction.reply({ embeds: [embed3], components: [row3] });
-            } else if(interaction.customId === 'herpes_two_fourth_option') {
-                memberModel.herpesGoodAnswers++;
-                await memberModel.save();
-                await interaction.reply({ embeds: [embed3], components: [row3] });
-            } else if(interaction.customId === 'herpes_three_first_option') {
-                memberModel.herpesGoodAnswers++;
-                await memberModel.save();
-                await interaction.reply({ embeds: [embed4], components: [row4] });
-            } else if(interaction.customId === 'herpes_three_second_option') {
-                await interaction.reply({ embeds: [embed4], components: [row4] });
-            } else if(interaction.customId === 'herpes_three_third_option') {
-                await interaction.reply({ embeds: [embed4], components: [row4] });
-            } else if(interaction.customId === 'herpes_three_fourth_option') {
-                await interaction.reply({ embeds: [embed4], components: [row4] });
-            } else if(interaction.customId === 'herpes_four_first_option') {
-                memberModel.herpesGoodAnswers++;
-                await memberModel.save();
-                await interaction.reply({ embeds: [embed5], components: [row5] });
-            } else if(interaction.customId === 'herpes_four_second_option') {
-                await interaction.reply({ embeds: [embed5], components: [row5] });
-            } else if(interaction.customId === 'herpes_four_third_option') {
-                await interaction.reply({ embeds: [embed5], components: [row5] });
-            } else if(interaction.customId === 'herpes_four_fourth_option') {
-                await interaction.reply({ embeds: [embed5], components: [row5] });
-            } else if(interaction.customId === 'herpes_five_first_option') {
-                await interaction.reply({ embeds: [finalEmbedFail] });
-            } else if(interaction.customId === 'herpes_five_second_option') {
-                await interaction.reply({ embeds: [finalEmbedFail] });
-            } else if(interaction.customId === 'herpes_five_third_option') {
-                if (memberModel.herpesGoodAnswers === 4) {
-                    if(memberModel.herpesBadge === false) {
-                        memberModel.herpesBadge = true;
-                        await memberModel.save();
 
-                        const finalEmbedSuccess = new EmbedBuilder()
-                            .setTitle('Vous avez réussi !')
-                            .setDescription(`
-                                Vous avez eu 5 bonnes réponses, vous avez donc réussi !
-                                Vous êtes récompensés d'un badge, votre collection est visionnable sur le site.
-                            `)
-                            .setColor("DarkGreen")
-
-                        await interaction.reply({ embeds: [finalEmbedSuccess] });
-                    } else {
-                        const finalEmbedSuccess = new EmbedBuilder()
-                            .setTitle('Vous avez réussi !')
-                            .setDescription(`
-                                Vous avez eu 5 bonnes réponses, vous avez donc réussi !
-                                Vous avez déjà reçu le badge correspondant, votre collection est visionnable sur le site.
-                            `)
-                            .setColor("DarkGreen")
-
-                        await interaction.reply({ embeds: [finalEmbedSuccess] });
-                    }
-                } else {
-                    await interaction.reply({ embeds: [finalEmbedFail] });
-                }
-            } else if(interaction.customId === 'herpes_five_fourth_option') {
-                await interaction.reply({ embeds: [finalEmbedFail] });
+            switch(interaction.customId) {
+            	case 'herpes_one_first_option':
+            	case 'herpes_one_third_option':
+            	case 'herpes_one_fourth_option':
+            		await interaction.reply({ embeds: [embed2], components: [row2] });
+            		break;
+            	case 'herpes_one_second_option':
+            		memberModel.herpesGoodAnswers++;
+                	await memberModel.save();
+                	await interaction.reply({ embeds: [embed2], components: [row2] });
+                	break;
+                case 'herpes_two_first_option':
+            	case 'herpes_two_third_option':
+            	case 'herpes_two_second_option':
+            		await interaction.reply({ embeds: [embed3], components: [row3] });
+            		break;
+            	case 'herpes_two_fourth_option':
+            		memberModel.herpesGoodAnswers++;
+                	await memberModel.save();
+                	await interaction.reply({ embeds: [embed3], components: [row3] });
+                	break;
+                case 'herpes_three_fourth_option':
+            	case 'herpes_three_third_option':
+            	case 'herpes_three_second_option':
+            		await interaction.reply({ embeds: [embed4], components: [row4] });
+            		break;
+            	case 'herpes_three_first_option':
+            		memberModel.herpesGoodAnswers++;
+                	await memberModel.save();
+            		await interaction.reply({ embeds: [embed4], components: [row4] });
+                	break;
+                case 'herpes_four_fourth_option':
+            	case 'herpes_four_third_option':
+            	case 'herpes_four_second_option':
+            		await interaction.reply({ embeds: [embed5], components: [row5] });
+            		break;
+            	case 'herpes_four_first_option':
+            		memberModel.herpesGoodAnswers++;
+                	await memberModel.save();
+            		await interaction.reply({ embeds: [embed5], components: [row5] });
+                	break;
+                case 'herpes_five_fourth_option':
+            	case 'herpes_five_first_option':
+            	case 'herpes_five_second_option':
+                	await interaction.reply({ embeds: [finalEmbedFail] });
+            		break;
+            	case 'herpes_five_third_option':
+					if (memberModel.herpesGoodAnswers === 4) {
+                	    if(memberModel.herpesBadge === false) {
+                	        memberModel.herpesBadge = true;
+                	        await memberModel.save();
+	
+                	        const finalEmbedSuccess = new EmbedBuilder()
+                	            .setTitle('Vous avez réussi !')
+                	            .setDescription(`
+                	                Vous avez eu 5 bonnes réponses, vous avez donc réussi !
+                	                Vous êtes récompensés d'un badge, votre collection est visionnable sur le site.
+                	            `)
+                	            .setColor("DarkGreen")
+	
+                	        await interaction.reply({ embeds: [finalEmbedSuccess] });
+                	    } else {
+                	        const finalEmbedSuccess = new EmbedBuilder()
+                	            .setTitle('Vous avez réussi !')
+                	            .setDescription(`
+                	                Vous avez eu 5 bonnes réponses, vous avez donc réussi !
+                	                Vous avez déjà reçu le badge correspondant, votre collection est visionnable sur le site.
+                	            `)
+                	            .setColor("DarkGreen")
+	
+                	        await interaction.reply({ embeds: [finalEmbedSuccess] });
+                	    }
+                	} else {
+                	    await interaction.reply({ embeds: [finalEmbedFail] });
+                	}
+                	break;
             }
         }
     }
