@@ -47,7 +47,7 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                        Donc quel est le meilleur moyen de ne pas avoir le papillomavirus  ? \n
+                        Donc quel est le meilleur moyen de ne pas avoir le papillomavirus ? \n
                         Réponse 🟢 : La pillule
                         Réponse 🟡 : Ne parler avec personne
                         Réponse 🔴 : Tuer tous les papillons de la planète
@@ -80,7 +80,7 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                        Donc quel est le meilleur moyen pour ne pas avoir le papillomavirus  ? \n
+                        Donc quel est le meilleur moyen pour ne pas avoir le papillomavirus  ? \n
                         Réponse 🟢 : La pillule
                         Réponse 🟡 : Ne parler avec personne
                         Réponse 🔴 : Tuer tous les papillons de la planète
@@ -113,7 +113,7 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                        Donc quel est le meilleur moyen pour ne pas avoir le papillomavirus  ? \n
+                        Donc quel est le meilleur moyen pour ne pas avoir le papillomavirus  ? \n
                         Réponse 🟢 : La pillule
                         Réponse 🟡 : Ne parler avec personne
                         Réponse 🔴 : Tuer tous les papillons de la planète
@@ -146,7 +146,7 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                        Donc quel est le meilleur moyen pour ne pas avoir le papillomavirus  ? \n
+                        Donc quel est le meilleur moyen pour ne pas avoir le papillomavirus  ? \n
                         Réponse 🟢 : La pillule
                         Réponse 🟡 : Ne parler avec personne
                         Réponse 🔴 : Tuer tous les papillons de la planète
@@ -179,7 +179,7 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
-                        Qu'engendre le papillomavirus  ? \n
+                        Qu'engendre le papillomavirus ? \n
                         Réponse 🟢 : Des cancers
                         Réponse 🟡 : Des papillons dans le ventre
                         Réponse 🔴 : Un changement de sexe
@@ -212,7 +212,7 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
-                        Qu'engendre le papillomavirus  ? \n
+                        Qu'engendre le papillomavirus  ? \n
                         Réponse 🟢 : Des cancers
                         Réponse 🟡 : Des papillons dans le ventre
                         Réponse 🔴 : Un changement de sexe
@@ -245,7 +245,7 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
-                        Qu'engendre le papillomavirus  ? \n
+                        Qu'engendre le papillomavirus  ? \n
                         Réponse 🟢 : Des cancers
                         Réponse 🟡 : Des papillons dans le ventre
                         Réponse 🔴 : Un changement de sexe
@@ -278,7 +278,7 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
-                        Qu'engendre le papillomavirus  ? \n
+                        Qu'engendre le papillomavirus  ? \n
                         Réponse 🟢 : Des cancers
                         Réponse 🟡 : Des papillons dans le ventre
                         Réponse 🔴 : Un changement de sexe
