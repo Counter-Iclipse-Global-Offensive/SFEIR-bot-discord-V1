@@ -7,34 +7,34 @@ module.exports = {
             if(interaction.customId === 'select') {
                 const selected = interaction.values[0];
 
-                if (selected === 'third_option') {
+                if (selected === 'fourth_option') {
                     const embed = new EmbedBuilder()
                         .setTitle('Question numéro 1️⃣')
                         .setDescription(`
-                            Une question ? \n
-                            Réponse 🟢 : NT
-                            Réponse 🟡 : NT
-                            Réponse 🔴 : NT
-                            Réponse 🟣 : NT
+                            Le préservatif est-il efficace contre le papillomavirus ? \n
+                            Réponse 🟢 : Oui
+                            Réponse 🟡 : Non!!!!!!
+                            Réponse 🔴 : Peut-être
+                            Réponse 🟣 : Je ne sais pas
                         `)
                         .setColor("DarkGold")
                     
                     const row = new ActionRowBuilder()
                         .addComponents(
                             new ButtonBuilder()
-                                .setCustomId('vih_one_first_option')
+                                .setCustomId('papillomavirus_one_first_option')
                                 .setStyle(ButtonStyle.Primary)
                                 .setEmoji('🟢'),
                             new ButtonBuilder()
-                                .setCustomId('vih_one_second_option')
+                                .setCustomId('papillomavirus_one_second_option')
                                 .setStyle(ButtonStyle.Primary)
                                 .setEmoji('🟡'),
                             new ButtonBuilder()
-                                .setCustomId('vih_one_third_option')
+                                .setCustomId('papillomavirus_one_third_option')
                                 .setStyle(ButtonStyle.Primary)
                                 .setEmoji('🔴'),
                             new ButtonBuilder()
-                                .setCustomId('vih_one_fourth_option')
+                                .setCustomId('papillomavirus_one_fourth_option')
                                 .setStyle(ButtonStyle.Primary)
                                 .setEmoji('🟣'),
                         )
@@ -43,403 +43,403 @@ module.exports = {
                 }
             }
         } else if (interaction.isButton()) {
-            if(interaction.customId === 'vih_one_first_option') {
+            if(interaction.customId === 'papillomavirus_one_first_option') {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                        Donc quel est le meilleur moyen pour ne pas avoir le papillomavirus  ? \n
+                        Réponse 🟢 : La pillule
+                        Réponse 🟡 : Ne parler avec personne
+                        Réponse 🔴 : Tuer tous les papillons de la planète
+                        Réponse 🟣 : La vacination!!!!
                     `)
                     .setColor("DarkGold")
                 
                 const row = new ActionRowBuilder()
                     .addComponents(
                         new ButtonBuilder()
-                            .setCustomId('vih_two_first_option')
+                            .setCustomId('papillomavirus_two_first_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟢'),
                         new ButtonBuilder()
-                            .setCustomId('vih_two_second_option')
+                            .setCustomId('papillomavirus_two_second_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟡'),
                         new ButtonBuilder()
-                            .setCustomId('vih_two_third_option')
+                            .setCustomId('papillomavirus_two_third_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🔴'),
                         new ButtonBuilder()
-                            .setCustomId('vih_two_fourth_option')
+                            .setCustomId('papillomavirus_two_fourth_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟣'),
                     )
 
                 await interaction.reply({ embeds: [embed], components: [row] });
-            } else if(interaction.customId === 'vih_one_second_option') {
+            } else if(interaction.customId === 'papillomavirus_one_second_option') {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                        Donc quel est le meilleur moyen pour ne pas avoir le papillomavirus  ? \n
+                        Réponse 🟢 : La pillule
+                        Réponse 🟡 : Ne parler avec personne
+                        Réponse 🔴 : Tuer tous les papillons de la planète
+                        Réponse 🟣 : La vacination!!!!
                     `)
                     .setColor("DarkGold")
                 
                 const row = new ActionRowBuilder()
                     .addComponents(
                         new ButtonBuilder()
-                            .setCustomId('vih_two_first_option')
+                            .setCustomId('papillomavirus_two_first_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟢'),
                         new ButtonBuilder()
-                            .setCustomId('vih_two_second_option')
+                            .setCustomId('papillomavirus_two_second_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟡'),
                         new ButtonBuilder()
-                            .setCustomId('vih_two_third_option')
+                            .setCustomId('papillomavirus_two_third_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🔴'),
                         new ButtonBuilder()
-                            .setCustomId('vih_two_fourth_option')
+                            .setCustomId('papillomavirus_two_fourth_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟣'),
                     )
 
                 await interaction.reply({ embeds: [embed], components: [row] });
-            } else if(interaction.customId === 'vih_one_third_option') {
+            } else if(interaction.customId === 'papillomavirus_one_third_option') {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                        Donc quel est le meilleur moyen pour ne pas avoir le papillomavirus  ? \n
+                        Réponse 🟢 : La pillule
+                        Réponse 🟡 : Ne parler avec personne
+                        Réponse 🔴 : Tuer tous les papillons de la planète
+                        Réponse 🟣 : La vacination!!!!
                     `)
                     .setColor("DarkGold")
                 
                 const row = new ActionRowBuilder()
                     .addComponents(
                         new ButtonBuilder()
-                            .setCustomId('vih_two_first_option')
+                            .setCustomId('papillomavirus_two_first_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟢'),
                         new ButtonBuilder()
-                            .setCustomId('vih_two_second_option')
+                            .setCustomId('papillomavirus_two_second_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟡'),
                         new ButtonBuilder()
-                            .setCustomId('vih_two_third_option')
+                            .setCustomId('papillomavirus_two_third_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🔴'),
                         new ButtonBuilder()
-                            .setCustomId('vih_two_fourth_option')
+                            .setCustomId('papillomavirus_two_fourth_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟣'),
                     )
 
                 await interaction.reply({ embeds: [embed], components: [row] });
-            } else if(interaction.customId === 'vih_one_fourth_option') {
+            } else if(interaction.customId === 'papillomavirus_one_fourth_option') {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                        Donc quel est le meilleur moyen pour ne pas avoir le papillomavirus  ? \n
+                        Réponse 🟢 : La pillule
+                        Réponse 🟡 : Ne parler avec personne
+                        Réponse 🔴 : Tuer tous les papillons de la planète
+                        Réponse 🟣 : La vacination!!!!
                     `)
                     .setColor("DarkGold")
                 
                 const row = new ActionRowBuilder()
                     .addComponents(
                         new ButtonBuilder()
-                            .setCustomId('vih_two_first_option')
+                            .setCustomId('papillomavirus_two_first_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟢'),
                         new ButtonBuilder()
-                            .setCustomId('vih_two_second_option')
+                            .setCustomId('papillomavirus_two_second_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟡'),
                         new ButtonBuilder()
-                            .setCustomId('vih_two_third_option')
+                            .setCustomId('papillomavirus_two_third_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🔴'),
                         new ButtonBuilder()
-                            .setCustomId('vih_two_fourth_option')
+                            .setCustomId('papillomavirus_two_fourth_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟣'),
                     )
 
                 await interaction.reply({ embeds: [embed], components: [row] });
-            } else if(interaction.customId === 'vih_two_first_option') {
+            } else if(interaction.customId === 'papillomavirus_two_first_option') {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                        Qu'engendre le papillomavirus  ? \n
+                        Réponse 🟢 : Des cancers!!!!!!
+                        Réponse 🟡 : Des papillons dans le ventre
+                        Réponse 🔴 : Un changement de sexe
+                        Réponse 🟣 : Accelère les battements du coeur 
                     `)
                     .setColor("DarkGold")
                 
                 const row = new ActionRowBuilder()
                     .addComponents(
                         new ButtonBuilder()
-                            .setCustomId('vih_three_first_option')
+                            .setCustomId('papillomavirus_three_first_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟢'),
                         new ButtonBuilder()
-                            .setCustomId('vih_three_second_option')
+                            .setCustomId('papillomavirus_three_second_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟡'),
                         new ButtonBuilder()
-                            .setCustomId('vih_three_third_option')
+                            .setCustomId('papillomavirus_three_third_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🔴'),
                         new ButtonBuilder()
-                            .setCustomId('vih_three_fourth_option')
+                            .setCustomId('papillomavirus_three_fourth_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟣'),
                     )
 
                 await interaction.reply({ embeds: [embed], components: [row] });
-            } else if(interaction.customId === 'vih_two_second_option') {
+            } else if(interaction.customId === 'papillomavirus_two_second_option') {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                        Qu'engendre le papillomavirus  ? \n
+                        Réponse 🟢 : Des cancers!!!!!!
+                        Réponse 🟡 : Des papillons dans le ventre
+                        Réponse 🔴 : Un changement de sexe
+                        Réponse 🟣 : Accelère les battements du coeur 
                     `)
                     .setColor("DarkGold")
                 
                 const row = new ActionRowBuilder()
                     .addComponents(
                         new ButtonBuilder()
-                            .setCustomId('vih_three_first_option')
+                            .setCustomId('papillomavirus_three_first_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟢'),
                         new ButtonBuilder()
-                            .setCustomId('vih_three_second_option')
+                            .setCustomId('papillomavirus_three_second_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟡'),
                         new ButtonBuilder()
-                            .setCustomId('vih_three_third_option')
+                            .setCustomId('papillomavirus_three_third_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🔴'),
                         new ButtonBuilder()
-                            .setCustomId('vih_three_fourth_option')
+                            .setCustomId('papillomavirus_three_fourth_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟣'),
                     )
 
                 await interaction.reply({ embeds: [embed], components: [row] });
-            } else if(interaction.customId === 'vih_two_third_option') {
+            } else if(interaction.customId === 'papillomavirus_two_third_option') {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                        Qu'engendre le papillomavirus  ? \n
+                        Réponse 🟢 : Des cancers!!!!!!
+                        Réponse 🟡 : Des papillons dans le ventre
+                        Réponse 🔴 : Un changement de sexe
+                        Réponse 🟣 : Accelère les battements du coeur 
                     `)
                     .setColor("DarkGold")
                 
                 const row = new ActionRowBuilder()
                     .addComponents(
                         new ButtonBuilder()
-                            .setCustomId('vih_three_first_option')
+                            .setCustomId('papillomavirus_three_first_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟢'),
                         new ButtonBuilder()
-                            .setCustomId('vih_three_second_option')
+                            .setCustomId('papillomavirus_three_second_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟡'),
                         new ButtonBuilder()
-                            .setCustomId('vih_three_third_option')
+                            .setCustomId('papillomavirus_three_third_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🔴'),
                         new ButtonBuilder()
-                            .setCustomId('vih_three_fourth_option')
+                            .setCustomId('papillomavirus_three_fourth_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟣'),
                     )
 
                 await interaction.reply({ embeds: [embed], components: [row] });
-            } else if(interaction.customId === 'vih_two_fourth_option') {
+            } else if(interaction.customId === 'papillomavirus_two_fourth_option') {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                        Qu'engendre le papillomavirus  ? \n
+                        Réponse 🟢 : Des cancers!!!!!!
+                        Réponse 🟡 : Des papillons dans le ventre
+                        Réponse 🔴 : Un changement de sexe
+                        Réponse 🟣 : Accelère les battements du coeur 
                     `)
                     .setColor("DarkGold")
                 
                 const row = new ActionRowBuilder()
                     .addComponents(
                         new ButtonBuilder()
-                            .setCustomId('vih_three_first_option')
+                            .setCustomId('papillomavirus_three_first_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟢'),
                         new ButtonBuilder()
-                            .setCustomId('vih_three_second_option')
+                            .setCustomId('papillomavirus_three_second_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟡'),
                         new ButtonBuilder()
-                            .setCustomId('vih_three_third_option')
+                            .setCustomId('papillomavirus_three_third_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🔴'),
                         new ButtonBuilder()
-                            .setCustomId('vih_three_fourth_option')
+                            .setCustomId('papillomavirus_three_fourth_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟣'),
                     )
 
                 await interaction.reply({ embeds: [embed], components: [row] });
-            } else if(interaction.customId === 'vih_three_first_option') {
+            } else if(interaction.customId === 'papillomavirus_three_first_option') {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 4️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                        Le papillomavirus a-t-il un impact sur la grossesse? ? \n
+                        Réponse 🟢 : Oui!!!!
+                        Réponse 🟡 : Non
+                        Réponse 🔴 : Peut-être
+                        Réponse 🟣 : Je ne sais pas
                     `)
                     .setColor("DarkGold")
                 
                 const row = new ActionRowBuilder()
                     .addComponents(
                         new ButtonBuilder()
-                            .setCustomId('vih_four_first_option')
+                            .setCustomId('papillomavirus_four_first_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟢'),
                         new ButtonBuilder()
-                            .setCustomId('vih_four_second_option')
+                            .setCustomId('papillomavirus_four_second_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟡'),
                         new ButtonBuilder()
-                            .setCustomId('vih_four_third_option')
+                            .setCustomId('papillomavirus_four_third_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🔴'),
                         new ButtonBuilder()
-                            .setCustomId('vih_four_fourth_option')
+                            .setCustomId('papillomavirus_four_fourth_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟣'),
                     )
 
                 await interaction.reply({ embeds: [embed], components: [row] });
-            } else if(interaction.customId === 'vih_three_second_option') {
+            } else if(interaction.customId === 'papillomavirus_three_second_option') {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 4️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                        Le papillomavirus a-t-il un impact sur la grossesse? ? \n
+                        Réponse 🟢 : Oui!!!!
+                        Réponse 🟡 : Non
+                        Réponse 🔴 : Peut-être
+                        Réponse 🟣 : Je ne sais pas
                     `)
                     .setColor("DarkGold")
                 
                 const row = new ActionRowBuilder()
                     .addComponents(
                         new ButtonBuilder()
-                            .setCustomId('vih_four_first_option')
+                            .setCustomId('papillomavirus_four_first_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟢'),
                         new ButtonBuilder()
-                            .setCustomId('vih_four_second_option')
+                            .setCustomId('papillomavirus_four_second_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟡'),
                         new ButtonBuilder()
-                            .setCustomId('vih_four_third_option')
+                            .setCustomId('papillomavirus_four_third_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🔴'),
                         new ButtonBuilder()
-                            .setCustomId('vih_four_fourth_option')
+                            .setCustomId('papillomavirus_four_fourth_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟣'),
                     )
 
                 await interaction.reply({ embeds: [embed], components: [row] });
-            } else if(interaction.customId === 'vih_three_third_option') {
+            } else if(interaction.customId === 'papillomavirus_three_third_option') {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 4️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                        Le papillomavirus a-t-il un impact sur la grossesse? ? \n
+                        Réponse 🟢 : Oui!!!!
+                        Réponse 🟡 : Non
+                        Réponse 🔴 : Peut-être
+                        Réponse 🟣 : Je ne sais pas
                     `)
                     .setColor("DarkGold")
                 
                 const row = new ActionRowBuilder()
                     .addComponents(
                         new ButtonBuilder()
-                            .setCustomId('vih_four_first_option')
+                            .setCustomId('papillomavirus_four_first_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟢'),
                         new ButtonBuilder()
-                            .setCustomId('vih_four_second_option')
+                            .setCustomId('papillomavirus_four_second_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟡'),
                         new ButtonBuilder()
-                            .setCustomId('vih_four_third_option')
+                            .setCustomId('papillomavirus_four_third_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🔴'),
                         new ButtonBuilder()
-                            .setCustomId('vih_four_fourth_option')
+                            .setCustomId('papillomavirus_four_fourth_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟣'),
                     )
 
                 await interaction.reply({ embeds: [embed], components: [row] });
-            } else if(interaction.customId === 'vih_three_fourth_option') {
+            } else if(interaction.customId === 'papillomavirus_three_fourth_option') {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 4️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                        Le papillomavirus a-t-il un impact sur la grossesse? ? \n
+                        Réponse 🟢 : Oui!!!!
+                        Réponse 🟡 : Non
+                        Réponse 🔴 : Peut-être
+                        Réponse 🟣 : Je ne sais pas
                     `)
                     .setColor("DarkGold")
                 
                 const row = new ActionRowBuilder()
                     .addComponents(
                         new ButtonBuilder()
-                            .setCustomId('vih_four_first_option')
+                            .setCustomId('papillomavirus_four_first_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟢'),
                         new ButtonBuilder()
-                            .setCustomId('vih_four_second_option')
+                            .setCustomId('papillomavirus_four_second_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟡'),
                         new ButtonBuilder()
-                            .setCustomId('vih_four_third_option')
+                            .setCustomId('papillomavirus_four_third_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🔴'),
                         new ButtonBuilder()
-                            .setCustomId('vih_four_fourth_option')
+                            .setCustomId('papillomavirus_four_fourth_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟣'),
                     )
 
                 await interaction.reply({ embeds: [embed], components: [row] });
-            } else if(interaction.customId === 'vih_four_first_option') {
+            } else if(interaction.customId === 'papillomavirus_four_first_option') {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
@@ -454,25 +454,25 @@ module.exports = {
                 const row = new ActionRowBuilder()
                     .addComponents(
                         new ButtonBuilder()
-                            .setCustomId('vih_five_first_option')
+                            .setCustomId('papillomavirus_five_first_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟢'),
                         new ButtonBuilder()
-                            .setCustomId('vih_five_second_option')
+                            .setCustomId('papillomavirus_five_second_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟡'),
                         new ButtonBuilder()
-                            .setCustomId('vih_five_third_option')
+                            .setCustomId('papillomavirus_five_third_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🔴'),
                         new ButtonBuilder()
-                            .setCustomId('vih_five_fourth_option')
+                            .setCustomId('papillomavirus_five_fourth_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟣'),
                     )
 
                 await interaction.reply({ embeds: [embed], components: [row] });
-            } else if(interaction.customId === 'vih_four_second_option') {
+            } else if(interaction.customId === 'papillomavirus_four_second_option') {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
@@ -487,25 +487,25 @@ module.exports = {
                 const row = new ActionRowBuilder()
                     .addComponents(
                         new ButtonBuilder()
-                            .setCustomId('vih_five_first_option')
+                            .setCustomId('papillomavirus_five_first_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟢'),
                         new ButtonBuilder()
-                            .setCustomId('vih_five_second_option')
+                            .setCustomId('papillomavirus_five_second_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟡'),
                         new ButtonBuilder()
-                            .setCustomId('vih_five_third_option')
+                            .setCustomId('papillomavirus_five_third_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🔴'),
                         new ButtonBuilder()
-                            .setCustomId('vih_five_fourth_option')
+                            .setCustomId('papillomavirus_five_fourth_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟣'),
                     )
 
                 await interaction.reply({ embeds: [embed], components: [row] });
-            } else if(interaction.customId === 'vih_four_third_option') {
+            } else if(interaction.customId === 'papillomavirus_four_third_option') {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
@@ -520,25 +520,25 @@ module.exports = {
                 const row = new ActionRowBuilder()
                     .addComponents(
                         new ButtonBuilder()
-                            .setCustomId('vih_five_first_option')
+                            .setCustomId('papillomavirus_five_first_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟢'),
                         new ButtonBuilder()
-                            .setCustomId('vih_five_second_option')
+                            .setCustomId('papillomavirus_five_second_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟡'),
                         new ButtonBuilder()
-                            .setCustomId('vih_five_third_option')
+                            .setCustomId('papillomavirus_five_third_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🔴'),
                         new ButtonBuilder()
-                            .setCustomId('vih_five_fourth_option')
+                            .setCustomId('papillomavirus_five_fourth_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟣'),
                     )
 
                 await interaction.reply({ embeds: [embed], components: [row] });
-            } else if(interaction.customId === 'vih_four_fourth_option') {
+            } else if(interaction.customId === 'papillomavirus_four_fourth_option') {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
@@ -553,19 +553,19 @@ module.exports = {
                 const row = new ActionRowBuilder()
                     .addComponents(
                         new ButtonBuilder()
-                            .setCustomId('vih_five_first_option')
+                            .setCustomId('papillomavirus_five_first_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟢'),
                         new ButtonBuilder()
-                            .setCustomId('vih_five_second_option')
+                            .setCustomId('papillomavirus_five_second_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟡'),
                         new ButtonBuilder()
-                            .setCustomId('vih_five_third_option')
+                            .setCustomId('papillomavirus_five_third_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🔴'),
                         new ButtonBuilder()
-                            .setCustomId('vih_five_fourth_option')
+                            .setCustomId('papillomavirus_five_fourth_option')
                             .setStyle(ButtonStyle.Primary)
                             .setEmoji('🟣'),
                     )

@@ -6,7 +6,6 @@ const { DATABASE_URI ,TOKEN } = require('./config.json');
 const mongoose = require('mongoose');
 
 // database connection
-/* Le proxi du serveur de l'esia peut le bloquer, alors pour l'instant on laisse comme ça.
 mongoose.connect(DATABASE_URI, {
 	autoIndex: false, // Don't build indexes
 	maxPoolSize: 10, // Maintain up to 10 socket connections
@@ -15,7 +14,6 @@ mongoose.connect(DATABASE_URI, {
 	family: 4 // Use IPv4, skip trying IPv6
 }).then(() => { console.log('Successfully connected to the database !') })
 .catch(err => { console.log(err) });
-*/
 
 // Create a new client instance
 const client = new Client({
