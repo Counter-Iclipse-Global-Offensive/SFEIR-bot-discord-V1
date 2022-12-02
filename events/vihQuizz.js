@@ -300,6 +300,8 @@ module.exports = {
 
                         await interaction.reply({ embeds: [finalEmbedSuccess] });
                     }
+                } else {
+                    await interaction.reply({ embeds: [finalEmbedFail] });
                 }
             }
             else if(interaction.customId === 'vih_five_fourth_option')
