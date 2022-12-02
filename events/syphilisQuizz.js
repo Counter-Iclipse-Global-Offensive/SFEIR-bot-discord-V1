@@ -11,11 +11,11 @@ module.exports = {
                     const embed = new EmbedBuilder()
                         .setTitle('Question numéro 1️⃣')
                         .setDescription(`
-                            Une question ? \n
-                            Réponse 🟢 : NT
-                            Réponse 🟡 : NT
-                            Réponse 🔴 : NT
-                            Réponse 🟣 : NT
+                        Quand a été découvert la syphilis ? \n
+                            Réponse 🟢 : 2019
+                            Réponse 🟡 : 1905!!!!!!
+                            Réponse 🔴 : 1087
+                            Réponse 🟣 : -327
                         `)
                         .setColor("DarkGold")
                     
@@ -47,11 +47,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                    La syphilis peut elle être transmis de la mère à l'enfant pendant la grossesse ? \n
+                        Réponse 🟢 : Oui!!!
+                        Réponse 🟡 : Peut-être
+                        Réponse 🔴 : Non
+                        Réponse 🟣 : Je ne sais pas
                     `)
                     .setColor("DarkGold")
                 
@@ -80,11 +80,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                    La syphilis peut elle être transmis de la mère à l'enfant pendant la grossesse ? \n
+                        Réponse 🟢 : Oui!!!
+                        Réponse 🟡 : Peut-être
+                        Réponse 🔴 : Non
+                        Réponse 🟣 : Je ne sais pas
                     `)
                     .setColor("DarkGold")
                 
@@ -113,11 +113,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                    La syphilis peut elle être transmis de la mère à l'enfant pendant la grossesse ? \n
+                        Réponse 🟢 : Oui!!!
+                        Réponse 🟡 : Peut-être
+                        Réponse 🔴 : Non
+                        Réponse 🟣 : Je ne sais pas
                     `)
                     .setColor("DarkGold")
                 
@@ -146,11 +146,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 2️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                    La syphilis peut elle être transmis de la mère à l'enfant pendant la grossesse ? \n
+                        Réponse 🟢 : Oui!!!
+                        Réponse 🟡 : Peut-être
+                        Réponse 🔴 : Non
+                        Réponse 🟣 : Je ne sais pas
                     `)
                     .setColor("DarkGold")
                 
@@ -179,11 +179,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                    La syphilis a-t-elle des conséquences sur la grossesse ? \n
+                        Réponse 🟢 : Oui!!!!!
+                        Réponse 🟡 : Peut-être
+                        Réponse 🔴 : Non
+                        Réponse 🟣 : Je ne sais pas
                     `)
                     .setColor("DarkGold")
                 
@@ -212,11 +212,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                    La syphilis a-t-elle des conséquences sur la grossesse ? \n
+                        Réponse 🟢 : Oui!!!!!
+                        Réponse 🟡 : Peut-être
+                        Réponse 🔴 : Non
+                        Réponse 🟣 : Je ne sais pas
                     `)
                     .setColor("DarkGold")
                 
@@ -245,11 +245,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                    La syphilis a-t-elle des conséquences sur la grossesse ? \n
+                        Réponse 🟢 : Oui!!!!!
+                        Réponse 🟡 : Peut-être
+                        Réponse 🔴 : Non
+                        Réponse 🟣 : Je ne sais pas
                     `)
                     .setColor("DarkGold")
                 
@@ -278,11 +278,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 3️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                    La syphilis a-t-elle des conséquences sur la grossesse ? \n
+                        Réponse 🟢 : Oui!!!!!
+                        Réponse 🟡 : Peut-être
+                        Réponse 🔴 : Non
+                        Réponse 🟣 : Je ne sais pas
                     `)
                     .setColor("DarkGold")
                 
@@ -312,10 +312,10 @@ module.exports = {
                     .setTitle('Question numéro 4️⃣')
                     .setDescription(`
                         Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                        Réponse 🟢 : Malformation
+                        Réponse 🟡 : Mort!!!!!
+                        Réponse 🔴 : Perte de la vue
+                        Réponse 🟣 : Un double appareil génital
                     `)
                     .setColor("DarkGold")
                 
@@ -344,11 +344,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 4️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                    Quelle est la conséquence la plus dramatique sur le bébé ? \n
+                        Réponse 🟢 : Malformation
+                        Réponse 🟡 : Mort!!!!!
+                        Réponse 🔴 : Perte de la vue
+                        Réponse 🟣 : Un double appareil génital
                     `)
                     .setColor("DarkGold")
                 
@@ -377,11 +377,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 4️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                    Quelle est la conséquence la plus dramatique sur le bébé ? \n
+                        Réponse 🟢 : Malformation
+                        Réponse 🟡 : Mort!!!!!
+                        Réponse 🔴 : Perte de la vue
+                        Réponse 🟣 : Un double appareil génital
                     `)
                     .setColor("DarkGold")
                 
@@ -410,11 +410,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 4️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                    Quelle est la conséquence la plus dramatique sur le bébé ? \n
+                        Réponse 🟢 : Malformation
+                        Réponse 🟡 : Mort!!!!!
+                        Réponse 🔴 : Perte de la vue
+                        Réponse 🟣 : Un double appareil génital
                     `)
                     .setColor("DarkGold")
                 
@@ -443,11 +443,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                    Où la syphilis est elle le plus présent ? \n
+                        Réponse 🟢 : En Océanie
+                        Réponse 🟡 : En Asie
+                        Réponse 🔴 : En Amérique du sud
+                        Réponse 🟣 : En Afrique!!!!
                     `)
                     .setColor("DarkGold")
                 
@@ -476,11 +476,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                    Où la syphilis est elle le plus présent ? \n
+                        Réponse 🟢 : En Océanie
+                        Réponse 🟡 : En Asie
+                        Réponse 🔴 : En Amérique du sud
+                        Réponse 🟣 : En Afrique!!!!
                     `)
                     .setColor("DarkGold")
                 
@@ -509,11 +509,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                    Où la syphilis est elle le plus présent ? \n
+                        Réponse 🟢 : En Océanie
+                        Réponse 🟡 : En Asie
+                        Réponse 🔴 : En Amérique du sud
+                        Réponse 🟣 : En Afrique!!!!
                     `)
                     .setColor("DarkGold")
                 
@@ -542,11 +542,11 @@ module.exports = {
                 const embed = new EmbedBuilder()
                     .setTitle('Question numéro 5️⃣')
                     .setDescription(`
-                        Une question ? \n
-                        Réponse 🟢 : NT
-                        Réponse 🟡 : NT
-                        Réponse 🔴 : NT
-                        Réponse 🟣 : NT
+                    Où la syphilis est elle le plus présent ? \n
+                        Réponse 🟢 : En Océanie
+                        Réponse 🟡 : En Asie
+                        Réponse 🔴 : En Amérique du sud
+                        Réponse 🟣 : En Afrique!!!!
                     `)
                     .setColor("DarkGold")
                 
