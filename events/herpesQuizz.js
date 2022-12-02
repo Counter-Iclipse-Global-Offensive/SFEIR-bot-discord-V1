@@ -8,6 +8,16 @@ module.exports = {
             if(interaction.customId === 'select') {
                 const selected = interaction.values[0];
 
+                const memberModel = await memberData.findOne({ memberId: interaction.user.id });
+
+                if (!memberModel) {
+                    const newData = new memberData({ memberId: interaction.user.id });
+                    newData.save();
+                } else {
+                    memberModel.herpesGoodAnswers = 0;
+                    memberModel.save();
+                }
+
                 if (selected === 'third_option') {
                     const embed1 = new EmbedBuilder()
                         .setTitle('Question numéro 1️⃣')
@@ -44,6 +54,8 @@ module.exports = {
                 }
             }
         } else if (interaction.isButton()) {
+            const memberModel = await memberData.findOne({ memberId: interaction.user.id });
+
             const embed2 = new EmbedBuilder()
                 .setTitle('Question numéro 2️⃣')
                 .setDescription(`

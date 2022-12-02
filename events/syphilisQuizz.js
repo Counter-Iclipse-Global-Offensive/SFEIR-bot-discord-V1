@@ -1,4 +1,5 @@
 const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js')
+const memberData = require('../models/member.model')
 
 module.exports = {
     name : 'interactionCreate',
@@ -6,6 +7,16 @@ module.exports = {
         if (interaction.isSelectMenu()) {
             if(interaction.customId === 'select') {
                 const selected = interaction.values[0];
+
+                const memberModel = await memberData.findOne({ memberId: interaction.user.id });
+
+                if (!memberModel) {
+                    const newData = new memberData({ memberId: interaction.user.id });
+                    newData.save();
+                } else {
+                    memberModel.syphilisGoodAnswers = 0;
+                    memberModel.save();
+                }
 
                 if (selected === 'fifth_option') {
                     const embed1 = new EmbedBuilder()
@@ -43,6 +54,8 @@ module.exports = {
                 }
             }
         } else if (interaction.isButton()) {
+            const memberModel = await memberData.findOne({ memberId: interaction.user.id });
+
             const embed2 = new EmbedBuilder()
                 .setTitle('Question numéro 2️⃣')
                 .setDescription(`
